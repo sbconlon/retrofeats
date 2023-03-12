@@ -201,6 +201,20 @@ Example: the feature `F_P_G10_FIP` is the fielding team's pitcher's FIP over the
 | ------- | ------ | -------------------------------- |
 | `Count` | int    | Pitch count                      |
 
+#### 3.1.3. Labels
+
+The final score is saved at the end of each feature vector. This captures the result of the game and allows for the widest set of labels possible for a ML dataset.
+
+Examples of possible labels:
+- Total runs scored (over/under prediction)
+- Win margin (spread prediction)
+- Outright winner (Moneyline prediction)
+
+| Name         | Type   | Description                      |
+| ------------ | ------ | -------------------------------- |
+| `away_final` | int    | Away team final score            |
+| `home_final` | int    | Home team final score            |
+
 <br/>
 <br/>
 <br/>
