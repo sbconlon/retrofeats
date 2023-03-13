@@ -221,7 +221,7 @@ Examples of possible labels:
 
 Below is an ERD diagram showing the relationships between the class objects in the project.
 
-
+![ERD Diagram](images/retrofeats-erd.png?raw=true "Data structure relationships")
 
 #### 3.2.1. Game
 
