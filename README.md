@@ -30,7 +30,7 @@ These features are collected at each timestep of the game.
 
 #### 3.1.2. Constant game information
 
-Wind direction, field condition, precipitation, and sky are encoded as one-hot vectors, where all entries are false if the information in unknown.
+Wind direction, field condition, precipitation, and sky are encoded as one-hot vectors, where all entries are false if the information is unknown.
 
 | Name             | Type   | Description                                      | 
 | ---------------- | ------ | ------------------------------------------------ |
@@ -201,7 +201,7 @@ Example: the feature `F_P_G10_FIP` is the fielding team's pitcher's FIP over the
 | ------- | ------ | -------------------------------- |
 | `Count` | int    | Pitch count                      |
 
-#### 3.1.3. Labels
+#### 3.1.5. Labels
 
 The final score is saved at the end of each feature vector. This captures the result of the game and allows for the widest set of labels possible for a ML dataset.
 
@@ -214,6 +214,30 @@ Examples of possible labels:
 | ------------ | ------ | -------------------------------- |
 | `away_final` | int    | Away team final score            |
 | `home_final` | int    | Home team final score            |
+
+<br/>
+
+### 3.2. Data Structures
+
+Below is an ERD diagram showing the relationships between the class objects in the project.
+
+
+
+#### 3.2.1. Game
+
+See `retrofeats/games/game.py`.
+
+This is the top level representation of the game.
+
+
+
+#### 3.2.1. Team
+
+See `retrofeats/teams/team.py`.
+
+Each game contains a team object for the home and away teams.
+
+
 
 <br/>
 <br/>
