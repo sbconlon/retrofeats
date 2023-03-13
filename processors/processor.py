@@ -20,24 +20,24 @@ sys.path.insert(0, '../')
 
 class Processor:
     # Define regex patterns for each event type
-    single_fielder_ptrn = re.compile(r'^\d(E.)?(!)?$')
-    multi_fielder_ptrn  = re.compile(r'^\d+(!)?\d+$')
-    putout_ptrn         = re.compile(r'^\d+(!)?(\d+)?\(B\)$')
-    force_out_ptrn      = re.compile(r'^\d+(!)?(\d+)?\(\d\)$')
-    dbl_ply_ptrn        = re.compile(r'^\d+(!)?(\d+)?\([B123]\)\d+(\([B123]\))?$') # Ex. '64(1)3' or '8(B)84(2)'
+    single_fielder_ptrn = re.compile(r'^(\d(!)?)(E.)?(!+)?$')
+    multi_fielder_ptrn  = re.compile(r'^(\d+(!+)?)+$')
+    putout_ptrn         = re.compile(r'^(\d(!)?)+\(B\)$')
+    force_out_ptrn      = re.compile(r'^(\d(!+)?)+\(\d\)(!+)?$')
+    dbl_ply_ptrn        = re.compile(r'^(\d(!)?)+\([B123]\)(!+)?(\d(!)?)+(\([B123]\))?$') # Ex. '64(1)3' or '8(B)84(2)'
     trpl_ply_ptrn       = re.compile(r'^\d+\([B123]\)\d+\([B123]\)\d+(\([B123]\))?$') # Ex. '5(2)4(1)3' or '1(B)16(2)63(1)'
     intrfrnc_ptrn       = re.compile(r'^C(/E[1-3])?$')
-    single_ptrn         = re.compile(r'^S(\d+)?$')
-    double_ptrn         = re.compile(r'^D(\d+)?$')
+    single_ptrn         = re.compile(r'^S(!+)?((\d(!)?)+)?$')
+    double_ptrn         = re.compile(r'^D((\d+(!+)?)+)?$')
     triple_ptrn         = re.compile(r'^T(\d+)?$')
     gr_double_ptrn      = re.compile(r'^DGR(\d+)?$')
     error_ptrn          = re.compile(r'^(\d+)?E\d$')
-    fielders_ch_ptrn    = re.compile(r'^FC(\d)?$')
-    foul_fly_error_ptrn = re.compile(r'^FLE\d$')
+    fielders_ch_ptrn    = re.compile(r'^FC(\d(!)?)?$')
+    foul_fly_error_ptrn = re.compile(r'^FLE\d(#)?$')
     homerun_ptrn        = re.compile(r'^HR?(\d+)?$')
     hbp_ptrn            = re.compile(r'^HP$')
-    k_no_event_ptrn     = re.compile(r'^K(\d+)?$')
-    k_w_event_ptrn      = re.compile(r'^K(\d+)?\+')
+    k_no_event_ptrn     = re.compile(r'^K((\d(!)?)+)?$')
+    k_w_event_ptrn      = re.compile(r'^K((\d(!)?)+)?\+')
     no_play_ptrn        = re.compile(r'^NP$')
     walk_ptrn           = re.compile(r'^I?W$')
     walk_w_event_ptrn   = re.compile(r'^I?W\+')
@@ -48,8 +48,10 @@ class Processor:
     past_ball_ptrn      = re.compile(r'^PB$')
     wild_pitch_ptrn     = re.compile(r'^WP$')
     pickoff_ptrn        = re.compile(r'^PO[123](\(.+\))?$')
-    pickoff_off_ptrn    = re.compile(r'^POCS[23H]\((\d+)?E?(\d+)?\)')
-    stln_base_ptrn      = re.compile(r'^SB[23H](\((.+)\))?(;SB[23H](\((.+)\))?(;SB[23H](\(.+)\))?)?$')
+    pickoff_off_ptrn    = re.compile(r'^POCS[23H]')
+    stln_base_ptrn      = re.compile(r'^SB[23H](\((.+)\))?(;SB[23H](\((.+)\))?)?(;SB[23H](\((.+)\))?)?$')
+    adv_ind_ptrn        = re.compile(r'\((.*?)\)')
+    adv_putout_ptrn     = re.compile(r'^(\d+(!)?)+(\/TH)?$') # used for runner advancements
 
     def __init__(self, batting_feats, pitching_feats, featpath, logpath, statpath):
         # Current game state
@@ -316,10 +318,23 @@ class Processor:
 
             strt = False if runner[0] == 'B' else int(runner[0])
             fnsh = False if runner[2] == 'H' else int(runner[2])
-            # Note: only check for error in the first set of parenthesis.
-            # Ex: '1X3(8)(E6)' the runner is still out but an error occured
-            is_out = ((runner[1] == 'X') and
-                      ('E' not in runner[runner.find('('):runner.find(')')+1]))
+
+
+            # Determine if an error occured during the runner advancement.
+            # Note: errors can occur with the runner still being thrown out.
+            # In these cases, the putout should be recorded as a seperate
+            # indicator. So, if we have an error with no putout, then the
+            # runner is safe. Else, the runner is out.
+            has_putout = False
+            has_error = False
+            for ind in re.findall(Processor.adv_ind_ptrn, runner[3:]):
+                if 'E' in ind:
+                    has_error = True
+                if Processor.adv_putout_ptrn.match(ind):
+                    has_putout = True
+            # The only time the runner isn't out is if an error occurs without
+            # a putout being specified. Else, the runner is out.
+            is_out = ((runner[1] == 'X') and (not has_error or has_putout))
             # Handle out on the base paths
             if is_out:
                 self.next_outs += 1 # Out
@@ -588,15 +603,12 @@ class Processor:
             self.next_outs += 1
         # Else, if there was an error but no explicit advancement was
         # given, then add an implicit one.
-        elif all([int(a[0]) != base+1 for a in adv]):
+        elif all([int(a[0]) != base+1 for a in adv if a[0] != 'B']):
             next_base = str(base+2) if base+1 != 3 else 'H'
             adv.append(f'{base+1}-'+next_base)
             adv.sort(reverse=True, key=lambda a: int(a[0]))
 
     def process_pickoff(self, play, adv):
-        self.logger.log(play)
-        self.logger.log(adv)
-        self.logger.log(self.next_runners)
         if not 'E' in play:
             base = int(play[2])-1
             assert(self.game.runners[base])
@@ -621,7 +633,7 @@ class Processor:
     def process_play(self, row):
         assert(self.game)
         assert(row[0] == 'play')
-        self.logger.log(row)
+        
         # Unpack row
         inning = row[1]
         team = int(row[2])

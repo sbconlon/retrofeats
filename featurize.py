@@ -13,10 +13,11 @@ from processors.processor import Processor
 parser = argparse.ArgumentParser()
 parser.add_argument('-g', '--game')
 parser.add_argument('-t', '--team')
+parser.add_argument('-y', '--year')
 args = parser.parse_args()
 
 # Define configuration
-year = 2016
+year = int(args.year)
 RETROSHEET_PATH = 'C:/Users/SBC98/Desktop/Projects/retrosheet'
 RETROSPLITS_PATH = 'C:/Users/SBC98/Desktop/Projects/retrosplits'
 sznpath = RETROSHEET_PATH + f"/regular-season-eve/{year}eve"

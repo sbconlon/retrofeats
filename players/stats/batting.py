@@ -74,6 +74,7 @@ class BattingStats:
     #  * OBP - On-base percentage
     #  * SLG - Slugging percentage
     #  * OPS - On-base plus slugging
+    #  * AVG - Batting average
     derived_stats = {'1B': lambda df: df['H']-df['2B']-df['3B']-df['HR']-df['HR4'],
                      'K%': lambda df: df['SO']/df['PA'] if df['PA'] != 0 else 0,
                      'BB%': lambda df: df['BB']/df['PA'] if df['PA'] != 0 else 0,
@@ -84,7 +85,7 @@ class BattingStats:
                      'OPS': lambda df: df['OBP']+df['SLG'],
                      'AVG': lambda df: df['H']/df['AB'] if df['AB'] != 0 else 0}
 
-    # Weighted_stats
+    # Weighted stats
     #  * wTB  - weighted total bases (numberator of wOBA formula)
     #  * wOBA - Weighted on-base percentage
     #  * wRAA - Weighted runs above average
