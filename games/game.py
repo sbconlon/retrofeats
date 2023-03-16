@@ -2,6 +2,7 @@
 
 # External imports
 import numpy as np
+import os
 import pandas as pd
 import sys
 
@@ -142,6 +143,8 @@ class GameState:
         self.past['home_final'] = home_final
 
     def save(self, path):
+        if not os.path.exists(path):
+            os.makedirs(path)
         self.past.to_csv(path+f'/{self.id}.csv', index=False)
 
     def __str__(self):

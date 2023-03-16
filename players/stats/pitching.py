@@ -33,6 +33,10 @@ def calcFIP(stats, consts):
 
 # Class for storing historical pitching stats
 class PitchingStats:
+    # Path to pitching dataset
+    path = 'data/players-daybyday'
+
+    # Counting stats
     counting_stats = ['G',      # Games
                       'GS',     # Games pitched
                       'CG',     # Complete game
@@ -91,10 +95,7 @@ class PitchingStats:
 
     stats = counting_stats + list(derived_stats.keys()) + list(weighted_stats.keys())
 
-    def __init__(self, game_id, player_id, stat_features, statpath, intervals=(40, 81, 162)):
-        # Historical stats location
-        self.statpath = statpath
-
+    def __init__(self, game_id, player_id, stat_features, intervals=(40, 81, 162)):
         # Initialize player stats over given intervals
         self.intervals = intervals
         self.stats = {i: {s: None for s in PitchingStats.stats} for i in self.intervals}
@@ -106,14 +107,13 @@ class PitchingStats:
         self.features = None
 
         # Read stats from retrosplits
-        stats_df = pd.read_csv(self.statpath+f'/players-daybyday/{player_id}.csv')
+        stats_df = pd.read_csv(PitchingStats.path+f'/{player_id}.csv')
         stats_df['date'] = pd.to_datetime(stats_df['date'])
         constants_df = pd.read_csv('data/wOBA-weights.csv')
         present = stats_df.index[stats_df['game.key'] == game_id][0]
 
         # Populate from retrosplits into the batter stats object
         for past in intervals:
-
             # Get games in the given interval
             df = stats_df.iloc[max(present-past, 0):present]
 

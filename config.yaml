@@ -1,0 +1,6 @@
+--- !Config
+batting_feats:  [PA, K%, BB%, wOBA, wRAA]
+pitching_feats: [TBF, K%, BB%, GO/TBF, FIP]
+input_path: path/to/retrosheet
+output_path: path/to/dump/features
+log_path: path/to/dump/logs

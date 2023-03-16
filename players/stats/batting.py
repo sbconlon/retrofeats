@@ -44,6 +44,9 @@ def calcwRAA(stats, consts):
 
 # Class for storing historical batting stats
 class BattingStats:
+    # Path to input dataset
+    path = 'data/players-daybyday'
+
     # Counting stats
     counting_stats = ['G',     # Games
                       'PA',    # Plate appearances
@@ -95,9 +98,7 @@ class BattingStats:
     stats = counting_stats + list(derived_stats.keys()) + list(weighted_stats.keys())
 
     # Populate player's batting stats upon construction
-    def __init__(self, game_id, player_id, stat_features, statpath, intervals=(40, 81, 162)):
-        # Historical stats location
-        self.statpath = statpath
+    def __init__(self, game_id, player_id, stat_features, intervals=(40, 81, 162)):
 
         # Initialize player stats over given intervals
         self.intervals = intervals
@@ -110,7 +111,7 @@ class BattingStats:
         self.features = None
 
         # Read stats from retrosplits
-        stats_df = pd.read_csv(self.statpath+f'/players-daybyday/{player_id}.csv')
+        stats_df = pd.read_csv(BattingStats.path+f'/{player_id}.csv')
         stats_df['date'] = pd.to_datetime(stats_df['date'])
         constants_df = pd.read_csv('./data/wOBA-weights.csv')
         if (stats_df['game.key'] == game_id).any():

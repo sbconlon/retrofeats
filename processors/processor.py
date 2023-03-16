@@ -8,6 +8,7 @@ import re
 import sys
 
 # Internal imports
+from configuration import Configuration
 from games.game import GameState
 from players.player import Player
 from players.stats.batting import BattingStats
@@ -19,6 +20,7 @@ from teams.team import Team
 sys.path.insert(0, '../')
 
 class Processor:
+
     # Define regex patterns for each event type
     single_fielder_ptrn = re.compile(r'^(\d(!)?)(E.)?(!+)?$')
     multi_fielder_ptrn  = re.compile(r'^(\d+(!+)?)+$')
@@ -53,7 +55,9 @@ class Processor:
     adv_ind_ptrn        = re.compile(r'\((.*?)\)')
     adv_putout_ptrn     = re.compile(r'^(\d+(!)?)+(\/TH)?$') # used for runner advancements
 
-    def __init__(self, batting_feats, pitching_feats, featpath, logpath, statpath):
+    def __init__(self, config):
+        # Configuration parameters
+        self.config = config
         # Current game state
         self.game = None
         # Values caclulated after current play that are reflected
@@ -62,16 +66,22 @@ class Processor:
         self.next_score = [0, 0]
         self.next_runners = [False, False, False]
         self.next_bpos = 0
+        """
         # Player features
         self.batting_feats = batting_feats
         self.pitching_feats = pitching_feats
         # Output path to save featurized games
         self.featpath = featpath
+        """
         # Create logger
+        """
         self.logpath = logpath
+        """
         self.logger = None
+        """
         # Path to historical player stats
         self.statpath = statpath
+        """
         # Boolean to control batting order check
         # We want to verify batting order under normal circumstances
         # however when teams bat out of order we need to be able to
@@ -87,11 +97,12 @@ class Processor:
         if self.game:
             # Save game
             self.game.add_result(self.next_score)
-            self.game.save(self.featpath)
+            self.game.save(self.config.output_path+f'/{self.game.date.year}eve')
 
         # Start new game
         self.game = GameState(row[1][:-1]) # game id
-        self.logger = Logger(self.logpath+"/"+row[1][:-1]+'.log')
+        year = row[1][3:7] # pull year from game id
+        self.logger = Logger(self.config.log_path+f'/{year}eve/{row[1][:-1]}.log')
         self.logger.log('---------------------------------------------------')
         self.logger.log(self.game.id)
 
@@ -103,7 +114,7 @@ class Processor:
         self.next_bpos = 0
 
 
-    def process_game_info(self, row, sznpath):
+    def process_game_info(self, row):
         assert(row[0] == 'info')
         assert(self.game)
 
@@ -136,8 +147,9 @@ class Processor:
         # If we have enough info to determine our team names, then do so.
         if ((self.game.teams[0] and self.game.teams[1] and self.game.date) and
                 not (self.game.teams[0].name and self.game.teams[1].name)):
-            self.game.teams[0].add_team_name(sznpath+f'/TEAM{self.game.date.year}')
-            self.game.teams[1].add_team_name(sznpath+f'/TEAM{self.game.date.year}')
+            year = self.game.date.year
+            self.game.teams[0].add_team_name(self.config.input_path+f'/{year}eve/TEAM{year}')
+            self.game.teams[1].add_team_name(self.config.input_path+f'/{year}eve/TEAM{year}')
 
 
     def process_starting_lineup(self, row):
@@ -156,8 +168,7 @@ class Processor:
         player.position = fld_pos
         player.batting = BattingStats(self.game.id,
                                       player.id,
-                                      self.batting_feats,
-                                      self.statpath)
+                                      self.config.batting_feats)
 
         # Add player to the game
         self.game.teams[team].roster[player.id] = player
@@ -168,8 +179,7 @@ class Processor:
         if player.position == 1:
             player.pitching = PitchingStats(self.game.id,
                                             player.id,
-                                            self.pitching_feats,
-                                            self.statpath)
+                                            self.config.pitching_feats)
             self.game.teams[team].pitcher = player.id
 
 
@@ -252,8 +262,7 @@ class Processor:
         self.game.teams[team].roster[pid] = new_player
         new_player.batting = BattingStats(self.game.id,
                                           new_player.id,
-                                          self.batting_feats,
-                                          self.statpath)
+                                          self.config.batting_feats)
 
         # Substitute new player for old player in the lineup
         if bat_pos != -1:
@@ -273,8 +282,7 @@ class Processor:
         if new_player.position == 1:
             new_player.pitching = PitchingStats(self.game.id,
                                                 pid,
-                                                self.pitching_feats,
-                                                self.statpath)
+                                                self.config.pitching_feats)
             self.game.teams[team].pitcher = new_player.id
 
         # Log
@@ -633,7 +641,7 @@ class Processor:
     def process_play(self, row):
         assert(self.game)
         assert(row[0] == 'play')
-        
+
         # Unpack row
         inning = row[1]
         team = int(row[2])
@@ -912,8 +920,11 @@ class Processor:
     # Output:
     #    None
     #
-    def process_team(self, sznpath, evtfile, game_id=''):
-        file = open(sznpath+'/'+evtfile, 'r')
+    def process_team(self, year, team_id, team_lg, game_id=''):
+        # Open event file for the given year and team
+        filepath = self.config.input_path+f'/{year}eve/'
+        filename = f'{year}{team_id}.EV{team_lg}'
+        file = open(filepath+filename, 'r')
         lines = file.readlines()
         skip = False
         for line in lines:
@@ -938,7 +949,7 @@ class Processor:
             #    or
             # row = ['info', key, value]
             if row[0] == 'info':
-                self.process_game_info(row, sznpath)
+                self.process_game_info(row)
 
             # Process starting lineup
             # row = ['start', player id, player name, team, batting pos, fielding pos]
