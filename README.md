@@ -436,8 +436,8 @@ Triple
 ```
 
 ## 4. To-Do
-- [] Include 2022 data (not currently included in Retrosplits).
-- [] Add team level multithreading.
-- [] Add features to account for team's bullpen and bench strength.
-- [] Add more advanced weighted features such as `OPS+`.
-- [] Add Statcast data.
+- [ ] Include 2022 data (not currently included in Retrosplits).
+- [ ] Add team level multithreading.
+- [ ] Add features to account for team's bullpen and bench strength.
+- [ ] Add more advanced weighted features such as `OPS+`.
+- [ ] Add Statcast data.
