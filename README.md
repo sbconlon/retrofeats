@@ -6,7 +6,7 @@
 3. [Documentation](#3-documentation)
    - 3.1. List of features
    - 3.2. Design
-   - 3.3. Execution flow
+   - 3.3. Processor execution
    - 3.4. Log
 5. [To-do](#4-to-do)
 
@@ -281,21 +281,137 @@ Examples of possible labels:
 | `away_final` | int    | Away team final score            |
 | `home_final` | int    | Home team final score            |
 
-<br/>
-
 ### 3.2. Design
 
 Below is the ERD diagram showing the relationships between the class objects in the project.
 
 ![ERD Diagram](images/retrofeats-erd.png?raw=true "Data structure relationships")
 
-### 3.3. Execution flow
+### 3.3. Processor execution
 
+This section follows the execution flow of the `Processor` object.
 
+See the Retrosheets [documentation](https://www.retrosheet.org/eventfile.htm) for more detailed information on the event file formatting.
+
+### 3.3.1. Processor initialization
+
+* `featurize.py` takes the input configuration, initializes the processor, and calls `Processor.process_team()`.
+
+#### 3.3.2. Process season
+
+* `Processor.process_team()` reads the Retrosheet event file given season year and team.
+
+* This is the high level processor function that reads the event file line by line.
+
+* Different processor functions are called depending on the type of line read. 
+
+#### 3.3.3. Process new game
+
+* See `Processor.process_new_game()`.
+
+* The first type of line encountered is the `id` which specifies the game id for a new game.
+
+* A `Game` object is initialized using the given game id and stored in `Processor.game`.
+
+* If we already have a game stored in `Processor.game`, then we know the processing for the old game is finished and can be output to disk.
+
+* Example:
+  ```
+  id,SFN201404080
+  ```
+
+#### 3.3.4. Process game information
+
+* See `Processor.process_game_info()`.
+
+* The next line type in the Retrosheet event file is `info` which specifies general game information.
+
+* `Team` objects are initialized using the team ids given for the home and away teams, and stored in `Processor.teams` list.
+   
+   Example:
+   ```
+   info,visteam,ARI
+   info,hometeam,SFN
+   ```
+   
+* The rest of the game information is stored in the `Processor.game.info` dictionary.
+  
+  Example:
+  ```
+  info,site,SFO03
+  info,date,2014/04/08
+  info,number,0
+  info,starttime,1:36PM
+  info,daynight,day
+  info,usedh,false
+  info,umphome,reynj901
+  info,ump1b,barbs901
+  info,ump2b,culbf901
+  info,ump3b,gonzm901
+  info,howscored,park
+  info,pitches,pitches
+  info,oscorer,feldd701
+  info,temp,73
+  info,winddir,tocf
+  info,windspeed,5
+  info,fieldcond,unknown
+  info,precip,unknown
+  info,sky,cloudy
+  info,timeofgame,159
+  info,attendance,42166
+  info,wp,hudst001
+  info,lp,cahit001
+  info,save,
+  ```
+
+#### 3.3.4. Process starting lineups
+
+* The next line type is `start` which specifies the starting lineups for each team.
+
+* This information is used to create `Player` objects which are stored in each team's roster, `Processor.game.team[].roster`.
+
+* The batting order and player positions are also specified at this time and used to populate the teams' batting orders, `Processor.game.team[].lineup`, and pitcher `Processor.game.team[].pitcher`.
+
+* Example:
+  ```
+  start,pagaa001,"Angel Pagan",1,1,8
+  start,beltb001,"Brandon Belt",1,2,3
+  start,sandp001,"Pablo Sandoval",1,3,5
+  start,poseb001,"Buster Posey",1,4,2
+  start,pench001,"Hunter Pence",1,5,9
+  start,morsm001,"Michael Morse",1,6,7
+  start,crawb001,"Brandon Crawford",1,7,6
+  start,hickb002,"Brandon Hicks",1,8,4
+  start,hudst001,"Tim Hudson",1,9,1
+  ```
+
+#### 3.3.5. Process plays
+
+* To this point, we have only considered line types which build the initial static representation of the game state. However, the `play` line type specifies the dynamics of the system. And, therefore, constitute actions that transform the game from one state to the next.
+
+* This is the most complex part of the processor in which play types must be decoded and then used to evolve the game state.
+
+* At the end of each play, the feature vector for the given game is saved in its `Game.past` list. When the game is finished, this list of feature vectors is written to disk.
+
+* Example, Brandon Belt hits a homerun in the bottom of the first inning:
+  ```
+  play,1,1,beltb001,21,BFBX,HR/89/F.1-H
+  ```
+
+#### 3.3.6. Process substitutions
+
+* The `sub` line type is a special kind of action that transforms a team's roster or lineup.
+
+* Example, Gregor Blanco is substituted as a pinch runner:
+  ```
+  sub,blang001,"Gregor Blanco",1,6,12
+  ```
 
 ### 3.4. Log
 
-Log processor outputs game state representation at each timestep.
+Log processor outputs game state representation at each timestep, followed by the action that transforms the current state into the next.
+
+This is useful for debugging and verifying the processor's accuracy.
 
 Example:
 ```
@@ -320,3 +436,8 @@ Triple
 ```
 
 ## 4. To-Do
+- [] Include 2022 data (not currently included in Retrosplits).
+- [] Add team level multithreading.
+- [] Add features to account for team's bullpen and bench strength.
+- [] Add more advanced weighted features such as `OPS+`.
+- [] Add Statcast data.
