@@ -95,7 +95,7 @@ class PitchingStats:
 
     stats = counting_stats + list(derived_stats.keys()) + list(weighted_stats.keys())
 
-    def __init__(self, game_id, player_id, stat_features, intervals=(40, 81, 162)):
+    def __init__(self, game_id, player_id, stat_features, intervals=(5, 10, 20)):
         # Initialize player stats over given intervals
         self.intervals = intervals
         self.stats = {i: {s: None for s in PitchingStats.stats} for i in self.intervals}

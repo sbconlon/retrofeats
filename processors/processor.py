@@ -168,7 +168,8 @@ class Processor:
         player.position = fld_pos
         player.batting = BattingStats(self.game.id,
                                       player.id,
-                                      self.config.batting_feats)
+                                      self.config.batting_feats,
+                                      self.config.batting_intervals)
 
         # Add player to the game
         self.game.teams[team].roster[player.id] = player
@@ -179,7 +180,8 @@ class Processor:
         if player.position == 1:
             player.pitching = PitchingStats(self.game.id,
                                             player.id,
-                                            self.config.pitching_feats)
+                                            self.config.pitching_feats,
+                                            self.config.pitching_intervals)
             self.game.teams[team].pitcher = player.id
 
 
@@ -229,8 +231,8 @@ class Processor:
             if old_player.position == 1:
                 old_player.pitching = PitchingStats(self.game.id,
                                                     pid,
-                                                    self.pitching_feats,
-                                                    self.statpath)
+                                                    self.config.pitching_feats,
+                                                    self.config.pitching_intervals)
                 self.game.teams[team].pitcher = old_player.id
             # Log
             self.logger.log('---------------------------------------------------')
@@ -262,7 +264,8 @@ class Processor:
         self.game.teams[team].roster[pid] = new_player
         new_player.batting = BattingStats(self.game.id,
                                           new_player.id,
-                                          self.config.batting_feats)
+                                          self.config.batting_feats,
+                                          self.config.batting_intervals)
 
         # Substitute new player for old player in the lineup
         if bat_pos != -1:
@@ -282,7 +285,8 @@ class Processor:
         if new_player.position == 1:
             new_player.pitching = PitchingStats(self.game.id,
                                                 pid,
-                                                self.config.pitching_feats)
+                                                self.config.pitching_feats,
+                                                self.config.pitching_intervals)
             self.game.teams[team].pitcher = new_player.id
 
         # Log

@@ -1,1 +1,6 @@
+# Byte compiled files
+__pycache__/
+*.py[cod]
+
+# Personal
 my_config.yaml

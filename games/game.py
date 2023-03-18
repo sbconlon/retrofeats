@@ -152,6 +152,9 @@ class GameState:
         pitcher_id = self.teams[(self.is_bot+1)%2].pitcher
         pitcher = self.teams[(self.is_bot+1)%2].roster[pitcher_id]
         batter = self.teams[self.is_bot].roster[self.batter]
+        # Get batting and pitching intervals
+        p_int = pitcher.pitching.intervals[-1]
+        b_int = batter.batting.intervals[-1]
         # Build game state string
         inning_str = 'Bot' if self.is_bot else 'Top'
         state_str =  f"{inning_str} {self.inning}\n"
@@ -159,11 +162,11 @@ class GameState:
         state_str += f"Outs: {self.outs}\n"
         state_str += f"\n"
         state_str += f"Pitcher: " + pitcher.name + "\n"
-        state_str += f"G {pitcher.pitching.stats[162]['G']} IP {round(pitcher.pitching.stats[162]['OUT']/3, 1)} FIP {round(pitcher.pitching.stats[162]['FIP'], 2)}\n"
+        state_str += f"G {pitcher.pitching.stats[p_int]['G']} IP {round(pitcher.pitching.stats[p_int]['OUT']/3, 1)} FIP {round(pitcher.pitching.stats[p_int]['FIP'], 2)}\n"
         state_str += f"Pitch Count: {pitcher.pcount}\n"
         state_str += f"\n"
         state_str += f"Batter: " + batter.name + "\n"
-        state_str += f"G {batter.batting.stats[162]['G']} PA {batter.batting.stats[162]['PA']} wOBA {round(batter.batting.stats[162]['wOBA'],3)} wRAA {round(batter.batting.stats[162]['wRAA'],1)}\n"
+        state_str += f"G {batter.batting.stats[b_int]['G']} PA {batter.batting.stats[b_int]['PA']} wOBA {round(batter.batting.stats[b_int]['wOBA'],3)} wRAA {round(batter.batting.stats[b_int]['wRAA'],1)}\n"
         state_str += f"\n"
         state_str += f"  {'o' if self.runners[1] else '.'}\n"
         state_str += f"{'o' if self.runners[2] else '.'} - {'o' if self.runners[0] else '.'}\n"

@@ -1,6 +1,8 @@
 --- !Config
 batting_feats:  [PA, K%, BB%, wOBA, wRAA]
 pitching_feats: [TBF, K%, BB%, GO/TBF, FIP]
+batting_intervals: [40, 81, 162] # Default: [40, 81, 162]
+pitching_intervals: [5, 10, 20]  # Default: [5, 10, 20]
 input_path: path/to/retrosheet
 output_path: path/to/dump/features
 log_path: path/to/dump/logs

@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 import re
+import time
 import yaml
 
 
@@ -41,6 +42,7 @@ elif len(input_years) == 1:
 else:
     raise Exception(f'{args.year} pattern is not recognized.')
 
+start = time.time()
 for year in years:
     # Get list of games for the given year
     teams_df = pd.read_csv(config.input_path+f'/{year}eve'+f'/TEAM{year}', header=None)
@@ -79,3 +81,4 @@ for year in years:
         Parallel(n_jobs=njobs)(delayed(proc_wrapper)(idx) for idx in range(nteams))
 
     print()
+print(f'--> Execution time: {time.time() - start}')
