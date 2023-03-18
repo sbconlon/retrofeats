@@ -6,7 +6,7 @@
 
 ## 1. Introduction
 
-Retrofeats takes [Retrosheet](https://www.retrosheet.org/eventfile.htm) event data as input and outputs a matrix of featurized game states at each timestep. Thereby providing an easy to use dataset for RL and ML applications. Currently supports data from 2000-2021, but plan to expand support to 1980 in the future. 
+Retrofeats is a feature engineering pipeline for event level baseball data. It takes [Retrosheet](https://www.retrosheet.org/eventfile.htm) event data as input and outputs a matrix of featurized game states at each timestep. Thereby providing an easy to use dataset for RL and ML applications. Currently supports data from 2000-2021, but plan to expand support to 1980 in the future. 
 
 ## 2. Getting Started
 
