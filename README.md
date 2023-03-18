@@ -1,8 +1,14 @@
 ## Table of Contents
 1. [Introduction](#1-introduction)
 2. [Getting Started](#2-getting-started)
+   - 2.1. Download the prebuild dataset
+   - 2.2. Build a customized datset
 3. [Documentation](#3-documentation)
-4. [To-do](#4-to-do)
+   - 3.1. List of features
+   - 3.2. Design
+   - 3.3. Execution flow
+   - 3.4. Log
+5. [To-do](#4-to-do)
 
 ## 1. Introduction
 
@@ -12,7 +18,7 @@ Retrofeats is a feature construction pipeline for event level baseball data. It 
 
 Two options for getting the dataset. One, a prebuilt dataset is available for download. Two, instructions are given for building the dataset yourself with a fully customizable feature selection.
 
-### 2.2. Download the prebuilt dataset
+### 2.1. Download the prebuilt dataset
 
 * Contains all regular season games from 2000 to 2021.
 
@@ -22,7 +28,7 @@ Two options for getting the dataset. One, a prebuilt dataset is available for do
 
 * Download [here](https://drive.google.com/file/d/1Q-H0nYokJ38u_vS6tT7FhM1zRC1iDuFl/view?usp=share_link).
 
-### 2.1. Build a customized dataset
+### 2.2. Build a customized dataset
 
 #### 2.1.1. Clone the repo
 
