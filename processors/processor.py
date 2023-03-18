@@ -912,14 +912,13 @@ class Processor:
 
     # Featurizes a given team's home games (this is the way retrosheets
     # organizes the event files). Saves featurized game matricies to the
-    # feature path provided at initialization time, self.featpath
+    # output path provided at initialization time.
     #
     # Input:
-    #  - sznpath (string):  path to the retrosheets season directory
-    #  - evtfile (string):  name of the team's event file in filepath.
-    #                       ex. '2020SFN.EVN'
-    #  - game_id (string):  specifies an individual game to be processed.
-    #                       all games are processed if not specified.
+    #  - year (int) - season to be processed
+    #  - team_id (string) - Retrosheet team id
+    #  - team_lg (char) - Retrosheet league id (either 'A' or 'N')
+    #  - game_id (string) - optional, Retrosheet game id to be processed
     #
     # Output:
     #    None
