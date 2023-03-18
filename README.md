@@ -312,6 +312,5 @@ G 162 PA 669 wOBA 0.404 wRAA 47.7
 Triple
 ---------------------------------------------------
 ```
-The game state in this example is 
 
 ## 4. To-Do
