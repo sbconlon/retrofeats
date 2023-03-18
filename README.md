@@ -287,7 +287,7 @@ Below is the ERD diagram showing the relationships between the class objects in 
 
 
 
-#### 3.4. Log
+### 3.4. Log
 
 Log processor outputs game state representation at each timestep.
 
