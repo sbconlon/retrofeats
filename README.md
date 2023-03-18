@@ -277,51 +277,21 @@ Examples of possible labels:
 
 <br/>
 
-### 3.2. Data Structures
+### 3.2. Design
 
 Below is the ERD diagram showing the relationships between the class objects in the project.
 
 ![ERD Diagram](images/retrofeats-erd.png?raw=true "Data structure relationships")
 
-#### 3.2.1. GameState
-
-See `retrofeats/games/game.py`.
-
-This is the top level representation of the game.
-
-Data members
-
-| Name             | Type     | Description                                                        |
-| ---------------- | -------- | ------------------------------------------------------------------ |
-| `id`             | string   | Unique identifier given to the game by Retrosheets                 |
-| `date`           | datetime | Date of the game                                                   |
-| `teams`          | list     | List containing the `Team` objects for the home and away teams     |
-| `inning`         | int      | Inning the game is in                                              |
-| `is_bot`         | bool     | True if the game is in the bottom of the inning                    |
-| `outs`           | int      | Outs in the inning                                                 |
-| `score`          | list     | Two element list, [Away score, home score]                         |
-| `runners`        | list     | Three element list of bools representing whether or not there is a </br> runner on a given base |
-| `batter`         | string   | Unique player identifier for the current batter, used for </br> validation with the Retrosheet data |
-| `past`           | list     | List of feature vectors for past game states                       |
-| `info`           | dict     | Dictionary of game information given in the Retrosheet game header |
-| `const_features` | series   | Cached vector of constant features                                 |
-
-#### 3.2.2. Team
-
-See `retrofeats/teams/team.py`.
-
-Each game contains a team object for the home and away teams.
+### 3.3. Execution flow
 
 
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+#### 3.4. Log
 
-For example, below is a snippet from a Retrofeats log file.
+Log processor outputs game state representation at each timestep.
+
+Example:
 ```
 ---------------------------------------------------
 Top 2
