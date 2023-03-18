@@ -6,9 +6,69 @@
 
 ## 1. Introduction
 
-Retrofeats takes [Retrosheet](https://www.retrosheet.org/eventfile.htm) event data as input and outputs a matrix of featurized game states at each timestep. Thereby providing an easy to use dataset for RL and ML applications.
+Retrofeats is a feature construction pipeline for event level baseball data. It takes [Retrosheet](https://www.retrosheet.org/eventfile.htm) event data as input and outputs a matrix of featurized game states at each timestep. Thereby providing an easy to use dataset for RL and ML applications. Currently supports data from 2000-2021, but plan to expand support to 1980 in the future. 
 
 ## 2. Getting Started
+
+Two options for getting the dataset. One, a prebuilt dataset is available for download. Two, instructions are given for building the dataset yourself with a fully customizable feature selection.
+
+### 2.2. Download the prebuilt dataset
+
+* Contains all regular season games from 2000 to 2021.
+
+* Batting features `[PA, K%, BB%, wOBA, wRAA]` are aggregated over `[40, 81, 162]` game intervals.
+
+* Pitching features `[TBF, K%, BB%, GO/TBF, FIP]` are aggregated over `[5, 10, 20]` game intervals.
+
+* Download [here](https://drive.google.com/file/d/1Q-H0nYokJ38u_vS6tT7FhM1zRC1iDuFl/view?usp=share_link).
+
+### 2.1. Build a customized dataset
+
+#### 2.1.1. Clone the repo
+
+* `git clone https://github.com/sbconlon/retrofeats.git`
+
+#### 2.1.2. Download Retrosheets event data
+
+* This is the input for the dataset generation. 
+
+* The Retrosheet events should be organized like `../path/to/retrosheet/{$year}eve` where `$year` is each year to be processed. This allows a convient way to iterate over the data by year and is how the data comes formatted from Retrosheets.
+
+* The downloads can be found [here](https://www.retrosheet.org/game.htm) under the header "Regular Season Event Files".
+
+#### 2.1.3. Install dependencies
+
+* `pip install -r requirements.txt`
+
+#### 2.1.4. Customize the features
+
+* Populate the fields in `config.yaml`
+
+* `batting_feats` is the list of batting features to be included in the feature vector. See Section 3.1.3. for a complete list of batting features.
+
+* `pitching_feats` is the list of pitching features to be included in the feature vector. See Section 3.1.4. for a complete list of pitching features.
+
+* `batting_intervals` is the list of intervals over which the batting stats are aggregated, in units of games. Default values are used if left blank.
+
+* `pitching_intervals` is the list of intervals over which the pitching stats are aggregated, in units of games. Default values are used if left blank.
+
+* `input_path` is the path to the high level directory containing the Retrosheet event files organized by season.
+
+* `output_path` is the path where the game matrices will be output. If the path does not exist, it will be created.
+
+* `log_path` is the path where the game logs will be output. If the path does not exist, it will be created.
+
+#### 2.1.4. Run
+
+* `python featurize.py config.yaml -y {$start_year}-{$end_year}`
+
+* Required arguements are the configuration file and year. 
+
+* The year arguement can either be a single year or a range of years, as shown in the above bullet.
+
+* To process a single team use the `-t` or `-team` flag followed by the Retrosheet team id.
+
+* To process a single game us the `-g` or `-game` flag followed by the Retrosheet game id.
 
 ## 3. Documentation
 
