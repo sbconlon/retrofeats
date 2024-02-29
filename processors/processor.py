@@ -66,22 +66,8 @@ class Processor:
         self.next_score = [0, 0]
         self.next_runners = [False, False, False]
         self.next_bpos = 0
-        """
-        # Player features
-        self.batting_feats = batting_feats
-        self.pitching_feats = pitching_feats
-        # Output path to save featurized games
-        self.featpath = featpath
-        """
         # Create logger
-        """
-        self.logpath = logpath
-        """
         self.logger = None
-        """
-        # Path to historical player stats
-        self.statpath = statpath
-        """
         # Boolean to control batting order check
         # We want to verify batting order under normal circumstances
         # however when teams bat out of order we need to be able to
@@ -91,21 +77,18 @@ class Processor:
 
     def process_new_game(self, row):
         assert(row[0] == 'id')
-
         # If we already have a game that has been processed,
         # save it to disk before starting the new game.
         if self.game:
             # Save game
             self.game.add_result(self.next_score)
             self.game.save(self.config.output_path+f'/{self.game.date.year}eve')
-
         # Start new game
         self.game = GameState(row[1][:-1]) # game id
         year = row[1][3:7] # pull year from game id
         self.logger = Logger(self.config.log_path+f'/{year}eve/{row[1][:-1]}.log')
         self.logger.log('---------------------------------------------------')
         self.logger.log(self.game.id)
-
         # Values caclulated after current play that are reflected
         # in the next state.
         self.next_outs = 0
