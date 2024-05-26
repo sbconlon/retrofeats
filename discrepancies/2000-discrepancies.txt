@@ -1,0 +1,2114 @@
+PROCESSING 2000 Anaheim Angels
+PROCESSING 2000 Baltimore Orioles
+PROCESSING 2000 Boston Red Sox
+PROCESSING 2000 Chicago White Sox
+PROCESSING 2000 Cleveland Indians
+PROCESSING 2000 Detroit Tigers
+
+Tigers
+
+Batting
+                  G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Gregg Jefferies   1    4    4    0    2    2    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Robert Fick       1    4    4    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Juan Encarnacion  1    4    3    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Juan Gonzalez     1    4    4    0    1    2    1    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Bobby Higginson   1    4    3    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Dean Palmer       1    4    4    0    2    2    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Tony Clark        1    3    3    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Karim Garcia      1    3    3    0    1    1    0    0    0    0    0    0    0    0    1    0    0    0    0    0    
+Deivi Cruz        1    3    3    0    0    0    0    0    0    0    0    0    0    1    1    0    0    0    0    0    
+Jeff Weaver       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Matt Anderson     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Mark J. Johnson   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                  G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Jeff Weaver       1    1    21   27   25   4    3    8    10   0    1    0    0    0    0    6    1    0    0    2    0    0    0    0    5    8    76   53   
+Matt Anderson     1    0    3    6    5    3    3    3    4    1    0    0    0    1    1    1    0    0    0    0    0    0    1    1    0    1    22   10   
+Mark J. Johnson   1    0    3    3    3    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    2    6    6    
+
+
+
+Tigers - Player stat verification
+STAT ERROR: Player: Jeff Weaver       Stat: GO    Expected: 4    Got: 5
+1 stat error(s).
+
+Game ID: DET200004150
+
+
+Tigers
+
+Batting
+                  G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Luis Polonia      1    5    5    2    3    5    0    1    0    0    2    0    0    0    0    0    0    0    0    0    
+Rich Becker       1    5    4    1    1    1    0    0    0    0    1    0    0    0    0    0    0    1    0    0    
+Bobby Higginson   1    5    5    1    2    3    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Dean Palmer       1    5    4    2    2    3    1    0    0    0    1    1    0    1    0    0    0    0    0    0    
+Deivi Cruz        1    5    4    1    2    2    0    0    0    0    2    0    0    0    0    0    0    1    0    0    
+Juan Encarnacion  1    5    4    1    0    0    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Brad Ausmus       1    4    3    2    3    4    1    0    0    0    3    1    0    0    0    0    0    0    0    0    
+Damion Easley     1    4    4    1    2    2    0    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Shane Halter      1    4    3    0    0    0    0    0    0    0    1    0    0    0    0    0    0    1    0    0    
+Willie Blair      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+C.J. Nitkowski    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Danny Patterson   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Nelson Cruz       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                  G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Willie Blair      1    1    16   24   21   5    5    7    12   2    0    1    0    2    0    3    0    0    0    1    0    0    0    0    6    7    65   41   
+C.J. Nitkowski    1    0    2    4    3    0    0    1    2    1    0    0    0    1    0    1    0    0    0    0    0    0    1    1    1    0    18   10   
+Danny Patterson   1    0    6    8    8    1    1    2    5    0    0    1    0    0    0    1    0    0    0    0    0    0    1    0    2    3    17   14   
+Nelson Cruz       1    0    3    4    4    0    0    1    1    0    0    0    0    0    0    2    0    0    0    0    0    0    0    0    0    1    12   9    
+
+
+
+Tigers - Player stat verification
+STAT ERROR: Player: Willie Blair      Stat: AO    Expected: 6    Got: 7
+1 stat error(s).
+
+Game ID: DET200007150
+
+PROCESSING 2000 Kansas City Royals
+
+White Sox
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Ray Durham       1    5    4    1    1    4    0    0    1    0    2    1    0    2    0    0    0    0    0    0    
+Jose Valentin    1    5    5    0    1    2    1    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Frank Thomas     1    5    5    2    2    2    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Magglio Ordonez  1    5    5    2    3    7    1    0    1    0    1    0    0    0    0    0    0    0    0    0    
+Paul Konerko     1    5    5    0    1    1    0    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Chris Singleton  1    5    4    1    1    1    0    0    0    0    1    0    0    0    0    1    0    0    0    0    
+Carlos Lee       1    5    5    0    2    2    0    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Greg Norton      1    4    4    0    2    2    0    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Josh Paul        1    4    2    2    0    0    0    0    0    0    0    2    0    1    0    0    0    0    0    0    
+Kip Wells        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Bill Simas       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Kelly Wunsch     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Sean Lowe        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Kip Wells        1    1    14   26   20   7    7    6    10   1    0    1    0    6    2    1    0    0    0    0    1    0    0    0    8    5    85   40   
+Bill Simas       1    0    6    8    8    0    0    4    5    1    0    0    0    0    0    1    1    0    0    0    0    0    2    0    3    0    16   13   
+Kelly Wunsch     1    0    2    3    2    1    1    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    2    0    1    1    10   5    
+Sean Lowe        1    0    2    7    5    4    4    3    4    1    0    0    0    2    1    1    0    0    0    0    0    0    1    1    0    1    22   11   
+
+
+
+White Sox - Player stat verification
+STAT ERROR: Player: Bill Simas       Stat: GO    Expected: 2    Got: 3
+1 stat error(s).
+
+Game ID: KCA200005070
+
+
+Devil Rays
+
+Batting
+                   G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Gerald Williams    1    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Miguel Cairo       1    4    4    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Greg Vaughn        1    4    3    1    1    4    0    0    1    0    1    1    0    1    1    0    0    0    0    0    
+Fred McGriff       1    4    3    0    0    0    0    0    0    0    0    1    0    2    0    0    0    0    0    0    
+Jose Canseco       1    4    3    0    0    0    0    0    0    0    0    1    0    2    0    0    0    0    0    0    
+Steve Cox          1    3    2    0    0    0    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Vinny Castilla     1    4    4    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+John Flaherty      1    3    3    1    2    5    0    0    1    0    1    0    0    0    0    0    0    0    0    0    
+Felix Martinez     1    3    3    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Albie Lopez        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jose Guillen       1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Roberto Hernandez  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                   G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Albie Lopez        1    1    26   33   32   1    1    7    10   0    0    1    0    0    0    3    0    1    0    0    0    0    0    0    15   7    72   51   
+Roberto Hernandez  1    0    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0    2    2    
+
+
+
+Devil Rays - Player stat verification
+STAT ERROR: Player: Albie Lopez        Stat: GO    Expected: 14   Got: 15
+1 stat error(s).
+
+Game ID: KCA200007290
+
+PROCESSING 2000 Minnesota Twins
+
+Athletics
+
+Batting
+                  G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Terrence Long     1    5    5    0    1    1    0    0    0    0    0    0    0    1    1    0    0    0    0    0    
+Miguel Tejada     1    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Jason Giambi      1    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Olmedo Saenz      1    4    3    1    1    1    0    0    0    0    0    1    0    2    0    0    0    0    0    0    
+Matt Stairs       1    4    4    1    1    1    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Adam Piatt        1    4    4    2    2    4    0    1    0    0    1    0    0    0    0    0    0    0    0    0    
+Ben Grieve        1    4    3    1    1    4    0    0    1    1    5    0    0    0    0    0    0    1    0    0    
+Frank Menechino   1    4    4    0    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Sal Fasano        1    4    4    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Mark Mulder       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jeff Tam          1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Mike Magnante     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+T.J. Mathews      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Rich Becker       1    0    0    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Ryan Christenson  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                  G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Mark Mulder       1    1    20   31   25   2    2    8    11   1    1    0    0    4    1    4    1    0    1    1    0    0    0    0    9    5    94   57   
+Jeff Tam          1    0    0    1    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    1    0    0    0    7    3    
+Mike Magnante     1    0    6    7    6    0    0    1    1    0    0    0    0    1    0    1    0    0    0    0    0    0    2    0    4    0    28   16   
+T.J. Mathews      1    0    4    5    4    0    0    1    1    0    0    0    0    1    0    1    1    0    0    0    0    0    0    0    2    0    25   14   
+
+
+
+Athletics - Player stat verification
+STAT ERROR: Player: Mike Magnante     Stat: GO    Expected: 3    Got: 4
+1 stat error(s).
+
+Game ID: MIN200004290
+
+
+Cardinals
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Shawon Dunston   1    4    3    1    0    0    0    0    0    0    0    0    0    1    0    1    0    0    0    0    
+Edgar Renteria   1    4    3    0    1    2    1    0    0    0    2    1    0    1    0    0    0    0    0    0    
+Jim Edmonds      1    4    4    0    0    0    0    0    0    0    0    0    0    3    0    0    0    0    0    0    
+Fernando Tatis   1    4    3    0    0    0    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Eric Davis       1    4    4    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Craig Paquette   1    4    4    0    1    1    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Eduardo Perez    1    4    4    0    2    2    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Mike Matheny     1    3    2    0    0    0    0    0    0    0    0    0    0    0    1    0    1    0    0    0    
+Placido Polanco  1    4    4    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Rick Ankiel      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Matt Morris      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Thomas Howard    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Keith McDonald   1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Rick Ankiel      1    1    18   27   22   4    4    7    10   1    1    0    0    2    0    4    0    1    0    2    0    0    0    0    6    8    87   52   
+Matt Morris      1    0    6    9    9    1    1    3    3    0    0    0    0    0    0    2    0    0    0    0    0    0    0    0    2    2    31   21   
+
+
+
+Cardinals - Player stat verification
+STAT ERROR: Player: Rick Ankiel      Stat: AO    Expected: 7    Got: 8
+1 stat error(s).
+
+Game ID: MIN200007160
+
+
+Twins
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Cristian Guzman  1    4    4    2    2    3    1    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Jay Canizaro     1    4    3    0    0    0    0    0    0    0    1    1    0    0    0    0    0    0    0    0    
+Matt Lawton      1    4    3    0    2    2    0    0    0    0    1    1    0    0    0    0    0    0    0    1    
+Ron Coomer       1    4    4    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    
+David Ortiz      1    3    3    0    2    3    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Corey Koskie     1    3    0    0    0    0    0    0    0    0    0    3    0    0    0    0    0    0    0    0    
+Jacque Jones     1    3    3    0    0    0    0    0    0    0    0    0    0    1    1    0    0    0    0    0    
+Denny Hocking    1    3    3    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Chad Moeller     1    2    2    1    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Brad Radke       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Midre Cummings   1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Marcus Jensen    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+LaTroy Hawkins   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Brad Radke       1    1    24   30   27   2    2    8    8    0    0    0    0    1    0    6    3    1    0    1    1    0    0    0    8    7    90   63   
+LaTroy Hawkins   1    0    3    3    3    0    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    1    10   5    
+
+
+
+Twins - Player stat verification
+STAT ERROR: Player: Brad Radke       Stat: AO    Expected: 6    Got: 7
+1 stat error(s).
+
+Game ID: MIN200007180
+
+
+Indians
+
+Batting
+                    G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Kenny Lofton        1    5    3    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    0    0    
+Omar Vizquel        1    5    4    1    2    2    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Jim Thome           1    5    4    0    0    0    0    0    0    0    0    0    0    2    1    1    0    0    0    0    
+Manny Ramirez       1    5    3    2    1    4    0    0    1    0    2    2    0    1    0    0    0    0    0    0    
+Travis Fryman       1    5    5    1    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Russell Branyan     1    5    5    1    2    2    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Sandy Alomar        1    5    4    0    1    2    1    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Richie Sexson       1    4    4    1    2    5    0    0    1    1    4    0    0    0    1    0    0    0    0    0    
+Jolbert Cabrera     1    4    3    0    1    1    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Tim Drew            1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Kane Davis          1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Cameron Cairncross  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jaime Navarro       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                    G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Tim Drew            1    1    9    19   15   5    5    10   11   1    0    0    0    2    0    2    0    0    0    2    0    0    0    0    2    4    71   39   
+Kane Davis          1    0    5    10   9    5    3    5    7    2    0    0    0    1    0    1    0    0    0    0    0    1    0    0    2    1    29   18   
+Cameron Cairncross  1    0    7    9    9    0    0    3    4    1    0    0    0    0    0    1    1    0    0    0    0    0    2    2    3    1    27   19   
+Jaime Navarro       1    0    3    3    3    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    1    1    9    6    
+
+
+
+Indians - Player stat verification
+STAT ERROR: Player: Tim Drew            Stat: AO    Expected: 3    Got: 4
+1 stat error(s).
+
+Game ID: MIN200007220
+
+
+Twins
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Cristian Guzman  1    5    5    0    2    2    0    0    0    0    0    0    0    3    0    0    0    0    0    0    
+Jay Canizaro     1    5    5    0    0    0    0    0    0    0    0    0    0    1    1    0    0    0    0    0    
+Matt Lawton      1    4    2    1    1    1    0    0    0    0    0    1    0    0    0    1    0    0    2    0    
+Ron Coomer       1    4    4    2    2    5    0    0    1    0    2    0    0    0    0    0    0    0    0    0    
+David Ortiz      1    4    4    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Corey Koskie     1    4    2    0    0    0    0    0    0    0    0    2    0    1    0    0    0    0    0    0    
+Chad Allen       1    2    1    0    0    0    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Jacque Jones     1    2    2    0    0    0    0    0    0    0    0    0    0    1    1    0    0    0    0    0    
+Chad Moeller     1    2    2    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Brad Radke       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Midre Cummings   1    2    1    0    0    0    0    0    0    0    1    1    0    0    0    0    0    0    0    0    
+Denny Hocking    1    2    2    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Marcus Jensen    1    2    2    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Travis Miller    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Hector Carrasco  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jay Ryan         1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Brad Radke       1    1    18   26   25   4    4    9    16   2    1    1    0    1    0    6    2    0    0    0    0    0    0    0    5    5    97   61   
+Travis Miller    1    0    1    4    1    3    3    1    1    0    0    0    0    2    0    0    0    0    1    0    0    0    0    0    0    0    15   7    
+Hector Carrasco  1    0    2    2    1    0    0    1    1    0    0    0    0    0    0    0    0    0    0    1    1    0    3    3    0    2    9    5    
+Jay Ryan         1    0    6    7    7    1    1    1    4    0    0    1    0    0    0    3    0    0    0    0    0    0    0    0    0    3    24   14   
+
+
+
+Twins - Player stat verification
+STAT ERROR: Player: Hector Carrasco  Stat: AO    Expected: 1    Got: 2
+1 stat error(s).
+
+Game ID: MIN200007230
+
+PROCESSING 2000 New York Yankees
+PROCESSING 2000 Oakland Athletics
+PROCESSING 2000 Seattle Mariners
+
+Blue Jays
+
+Batting
+                  G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Rob Ducey         1    5    4    0    1    1    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Homer Bush        1    5    4    0    0    0    0    0    0    0    0    0    0    1    1    1    0    0    0    0    
+Tony Batista      1    5    3    2    0    0    0    0    0    0    0    1    0    1    0    1    0    0    0    0    
+Carlos Delgado    1    4    3    2    2    2    0    0    0    0    0    0    0    1    0    1    0    0    0    0    
+Brad Fullmer      1    4    4    1    3    6    0    0    1    0    2    0    0    1    0    0    0    0    0    0    
+Jose Cruz         1    4    4    0    1    1    0    0    0    0    1    0    0    0    1    0    0    0    0    0    
+Darrin Fletcher   1    4    4    1    1    4    0    0    1    0    2    0    0    1    0    0    0    0    0    0    
+Marty Cordova     1    4    4    0    0    0    0    0    0    0    0    0    0    1    1    0    0    0    0    0    
+Alex S. Gonzalez  1    4    4    0    2    2    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Kelvim Escobar    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Pedro Borbon      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+John Frascatore   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Paul Quantrill    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                  G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Kelvim Escobar    1    1    19   31   23   9    4    4    10   0    0    2    0    7    0    5    1    1    0    0    0    0    0    0    9    4    123  65   
+Pedro Borbon      1    0    0    2    1    0    0    1    1    0    0    0    0    1    1    0    0    0    0    0    0    0    3    2    0    0    8    2    
+John Frascatore   1    0    3    5    2    1    1    0    0    0    0    0    0    2    0    0    0    0    0    1    0    0    3    1    0    3    14   6    
+Paul Quantrill    1    0    2    3    1    0    0    0    0    0    0    0    0    1    0    0    0    0    0    1    0    0    2    1    0    2    8    3    
+
+
+
+Blue Jays - Player stat verification
+STAT ERROR: Player: John Frascatore   Stat: TBF   Expected: 6    Got: 5
+STAT ERROR: Player: John Frascatore   Stat: BB    Expected: 3    Got: 2
+STAT ERROR: Player: Paul Quantrill    Stat: TBF   Expected: 2    Got: 3
+STAT ERROR: Player: Paul Quantrill    Stat: BB    Expected: 0    Got: 1
+4 stat error(s).
+
+Game ID: SEA200007300
+
+PROCESSING 2000 Tampa Bay Devil Rays
+
+White Sox
+
+Batting
+                   G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Ray Durham         1    6    2    1    0    0    0    0    0    0    1    2    0    0    0    1    0    1    1    0    
+Jose Valentin      1    3    3    0    2    4    2    0    0    0    1    0    0    1    0    0    0    0    0    0    
+Frank Thomas       1    6    6    0    2    2    0    0    0    0    1    0    0    2    0    0    0    0    0    0    
+Magglio Ordonez    1    6    5    1    1    4    0    0    1    0    1    1    0    1    0    0    0    0    0    1    
+Paul Konerko       1    5    5    1    1    1    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+McKay Christensen  1    5    4    1    0    0    0    0    0    0    0    1    0    2    0    0    0    0    0    0    
+Jeff Abbott        1    5    5    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Craig Wilson       1    5    4    0    1    1    0    0    0    0    0    0    0    1    0    1    0    0    0    0    
+Josh Paul          1    5    3    0    0    0    0    0    0    0    1    0    0    1    0    1    1    0    0    0    
+Cal Eldred         1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Greg Norton        1    3    3    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Kelly Wunsch       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Keith Foulke       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Bobby Howry        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Bill Simas         1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Chris Singleton    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Tanyon Sturtze     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                   G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Cal Eldred         1    1    18   26   22   4    4    6    8    0    1    0    0    4    0    2    0    0    0    0    0    0    0    0    3    11   71   40   
+Kelly Wunsch       1    0    3    3    3    0    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    1    8    6    
+Keith Foulke       1    0    3    3    3    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    0    0    1    0    10   7    
+Bobby Howry        1    0    3    6    4    1    1    2    2    0    0    0    0    1    1    0    0    0    1    0    0    0    0    0    1    1    16   10   
+Bill Simas         1    0    6    6    6    0    0    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    5    0    17   14   
+Tanyon Sturtze     1    0    2    5    3    1    1    1    1    0    0    0    0    2    0    1    0    0    0    0    0    0    0    0    0    1    20   11   
+
+
+
+White Sox - Player stat verification
+STAT ERROR: Player: Kelly Wunsch       Stat: GO    Expected: 0    Got: 1
+1 stat error(s).
+
+Game ID: TBA200004130
+
+PROCESSING 2000 Texas Rangers
+
+Yankees
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Chuck Knoblauch  1    5    5    1    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Derek Jeter      1    5    5    1    1    1    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Paul O'Neill     1    5    4    1    2    2    0    0    0    0    0    1    0    0    0    0    0    0    0    1    
+Bernie Williams  1    5    4    1    1    4    0    0    1    0    2    1    0    1    0    0    0    0    1    0    
+Tino Martinez    1    5    5    0    2    2    0    0    0    0    2    0    0    1    0    0    0    0    0    0    
+Shane Spencer    1    3    3    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jorge Posada     1    4    4    1    1    4    0    0    1    0    1    0    0    0    1    0    0    0    0    0    
+Roberto Kelly    1    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Clay Bellinger   1    4    4    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+David Cone       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jeff Nelson      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Mike Stanton     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Ricky Ledee      1    2    2    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Mariano Rivera   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Allen Watson     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Todd Erdos       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+David Cone       1    1    21   28   23   2    2    5    7    2    0    0    0    3    0    3    0    1    1    0    1    0    0    0    4    10   90   50   
+Jeff Nelson      1    0    2    2    2    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    0    0    0    0    10   6    
+Mike Stanton     1    0    1    2    2    1    1    1    4    0    0    1    0    0    0    0    0    0    0    0    0    0    0    0    0    1    10   5    
+Mariano Rivera   1    0    6    8    7    1    1    3    3    0    0    0    0    0    0    1    1    0    1    0    0    0    0    0    2    1    30   23   
+Allen Watson     1    0    0    3    2    0    0    2    2    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    13   8    
+Todd Erdos       1    0    3    2    2    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    3    0    2    0    4    3    
+
+
+
+Yankees - Player stat verification
+STAT ERROR: Player: Todd Erdos       Stat: GO    Expected: 1    Got: 2
+1 stat error(s).
+
+Game ID: TEX200004170
+
+PROCESSING 2000 Toronto Blue Jays
+
+Tigers
+
+Batting
+                  G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Damion Easley     1    4    4    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Brad Ausmus       1    4    2    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    0    0    
+Bobby Higginson   1    4    4    0    1    2    1    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Juan Gonzalez     1    4    4    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    
+Dean Palmer       1    4    4    0    1    1    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Tony Clark        1    3    3    0    0    0    0    0    0    0    0    0    0    1    1    0    0    0    0    0    
+Juan Encarnacion  1    3    3    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Deivi Cruz        1    3    2    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Shane Halter      1    3    3    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Brian Moehler     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Matt Anderson     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Todd Jones        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                  G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Brian Moehler     1    1    19   29   27   5    5    9    12   0    0    1    0    2    0    4    1    0    0    0    0    1    0    0    6    8    71   42   
+Matt Anderson     1    0    3    3    2    1    1    1    4    0    0    1    0    0    0    1    0    0    0    1    0    0    3    1    0    2    14   9    
+Todd Jones        1    0    2    4    4    0    0    2    2    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    0    1    11   7    
+
+
+
+Tigers - Player stat verification
+STAT ERROR: Player: Matt Anderson     Stat: AO    Expected: 1    Got: 2
+1 stat error(s).
+
+Game ID: TOR200006210
+
+
+Blue Jays
+
+Batting
+                  G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Shannon Stewart   1    5    5    0    2    2    0    0    0    0    1    0    0    1    0    0    0    0    0    0    
+Alex S. Gonzalez  1    5    4    0    2    3    1    0    0    0    0    0    0    0    0    0    1    0    0    0    
+Brad Fullmer      1    5    5    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Carlos Delgado    1    4    3    0    1    1    0    0    0    0    0    1    1    1    0    0    0    0    0    0    
+Tony Batista      1    4    4    0    1    1    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Jose Cruz         1    4    4    2    1    2    1    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Darrin Fletcher   1    4    2    0    2    3    1    0    0    0    0    2    0    0    0    0    0    0    0    0    
+Marty Cordova     1    4    3    1    2    2    0    0    0    0    1    1    0    1    0    0    0    0    0    0    
+Chris Woodward    1    4    4    0    1    1    0    0    0    0    1    0    0    2    0    0    0    0    0    0    
+Frank Castillo    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Paul Quantrill    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Mark Guthrie      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Billy Koch        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                  G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Frank Castillo    1    1    21   24   24   1    1    4    7    0    0    1    0    0    0    5    0    0    0    0    0    0    0    0    6    9    56   42   
+Paul Quantrill    1    0    2    3    2    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    0    0    1    1    8    4    
+Mark Guthrie      1    0    1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    1    0    0    0    6    3    
+Billy Koch        1    0    3    3    3    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    2    4    4    
+
+
+
+Blue Jays - Player stat verification
+STAT ERROR: Player: Frank Castillo    Stat: GO    Expected: 5    Got: 6
+1 stat error(s).
+
+Game ID: TOR200008030
+
+PROCESSING 2000 Arizona Diamondbacks
+PROCESSING 2000 Atlanta Braves
+
+Dodgers
+
+Batting
+                   G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Tom Goodwin        1    3    3    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Mark Grudzielanek  1    4    4    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    1    
+Gary Sheffield     1    4    4    0    0    0    0    0    0    0    0    0    0    4    0    0    0    0    0    0    
+Shawn Green        1    4    3    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Eric Karros        1    4    4    1    1    2    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Adrian Beltre      1    3    3    0    1    2    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Chad Kreuter       1    3    3    1    1    1    0    0    0    0    1    0    0    1    0    0    0    0    0    0    
+Alex Cora          1    3    3    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Chan Ho Park       1    2    2    0    1    2    1    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Jim Leyritz        1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Devon White        1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Terry Adams        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Gregg Olson        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                   G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Chan Ho Park       1    1    21   28   26   2    2    7    10   0    0    1    0    2    0    6    2    0    0    0    0    0    0    0    9    4    94   59   
+Terry Adams        1    0    2    7    6    5    5    4    5    1    0    0    0    1    0    0    0    0    0    0    0    0    0    0    1    0    28   14   
+Gregg Olson        1    0    1    4    2    0    0    1    2    1    0    0    0    2    0    0    0    0    0    0    0    0    2    2    0    1    15   5    
+
+
+
+Dodgers - Player stat verification
+STAT ERROR: Player: Chan Ho Park       Stat: GO    Expected: 8    Got: 9
+1 stat error(s).
+
+Game ID: ATL200008110
+
+
+Braves
+
+Batting
+                   G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Rafael Furcal      1    4    4    1    2    2    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Andruw Jones       1    4    4    2    3    8    0    1    1    0    2    0    0    0    0    0    0    0    0    0    
+Chipper Jones      1    4    2    1    0    0    0    0    0    0    0    2    1    1    0    0    0    0    0    0    
+Wally Joyner       1    4    4    0    2    2    0    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Bobby Bonilla      1    3    3    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Javy Lopez         1    3    1    1    0    0    0    0    0    0    1    1    0    0    0    0    0    1    0    0    
+Reggie Sanders     1    4    4    0    1    2    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Keith Lockhart     1    2    2    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Tom Glavine        1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    
+B.J. Surhoff       1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+George Lombard     1    2    2    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Terry Mulholland   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Kerry Ligtenberg   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Steve Sisco        1    2    1    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Paul Bako          1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Tim Unroe          1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Mike Remlinger     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Scott Kamieniecki  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+John Rocker        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                   G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Tom Glavine        1    1    15   18   17   0    0    4    6    2    0    0    0    1    0    3    1    0    0    0    0    0    0    0    6    4    57   34   
+Terry Mulholland   1    0    1    4    2    0    0    1    1    0    0    0    0    2    0    1    0    0    0    0    0    0    0    0    0    0    22   11   
+Kerry Ligtenberg   1    0    5    5    5    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    3    0    1    3    8    6    
+Mike Remlinger     1    0    0    4    1    2    2    1    1    0    0    0    0    3    0    0    0    0    0    0    0    0    0    0    0    0    22   7    
+Scott Kamieniecki  1    0    3    2    2    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    3    1    2    0    4    2    
+John Rocker        1    0    3    3    3    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    1    1    10   6    
+
+
+
+Braves - Player stat verification
+STAT ERROR: Player: Tom Glavine        Stat: GO    Expected: 5    Got: 6
+1 stat error(s).
+
+Game ID: ATL200009300
+
+PROCESSING 2000 Chicago Cubs
+
+Brewers
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Ron Belliard     1    6    6    3    3    5    2    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Mark Loretta     1    6    5    1    5    5    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Jeromy Burnitz   1    6    4    2    1    2    1    0    0    0    3    1    0    1    0    0    0    1    0    1    
+Charlie Hayes    1    6    4    1    0    0    0    0    0    0    0    2    0    0    1    0    0    0    0    0    
+Marquis Grissom  1    6    4    2    0    0    0    0    0    0    1    1    0    0    0    0    0    1    0    1    
+Jose Hernandez   1    6    4    2    3    4    1    0    0    0    2    2    0    0    0    0    0    0    0    0    
+Lyle Mouton      1    6    4    2    3    4    1    0    0    0    3    2    0    0    0    0    0    0    1    0    
+Henry Blanco     1    5    4    1    2    3    1    0    0    0    2    1    1    0    0    0    0    0    0    0    
+Steve Woodard    1    4    4    0    1    1    0    0    0    0    1    0    0    0    1    0    0    0    0    0    
+Juan Acevedo     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Curtis Leskanic  1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+David Weathers   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Steve Woodard    1    1    15   27   25   7    6    13   21   2    0    2    0    1    1    4    0    0    1    0    1    0    0    0    5    3    78   48   
+Juan Acevedo     1    0    3    7    3    0    0    1    1    0    0    0    0    4    2    1    0    0    0    0    1    0    0    0    1    0    30   10   
+Curtis Leskanic  1    0    8    13   10   1    1    3    3    0    0    0    0    3    0    3    1    0    0    0    1    0    1    0    3    1    57   31   
+David Weathers   1    0    1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    3    0    0    0    7    4    
+
+
+
+Brewers - Player stat verification
+STAT ERROR: Player: Juan Acevedo     Stat: TBF   Expected: 8    Got: 7
+STAT ERROR: Player: Juan Acevedo     Stat: BB    Expected: 5    Got: 4
+STAT ERROR: Player: Curtis Leskanic  Stat: TBF   Expected: 12   Got: 13
+STAT ERROR: Player: Curtis Leskanic  Stat: BB    Expected: 2    Got: 3
+4 stat error(s).
+
+Game ID: CHN200005110
+
+
+Cardinals
+
+Batting
+                G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Fernando Vina   1    5    5    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Shawon Dunston  1    5    5    1    2    5    0    0    1    0    2    0    0    1    0    0    0    0    0    0    
+Will Clark      1    5    5    0    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Fernando Tatis  1    5    2    1    1    1    0    0    0    0    0    2    0    0    0    1    0    0    0    0    
+Eric Davis      1    4    4    0    0    0    0    0    0    0    0    0    0    3    0    0    0    0    0    0    
+J.D. Drew       1    4    4    1    1    1    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Edgar Renteria  1    4    4    1    2    5    0    0    1    0    3    0    0    1    0    0    0    0    1    0    
+Mike Matheny    1    4    4    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Darryl Kile     1    4    2    0    0    0    0    0    0    0    0    1    0    1    0    0    1    0    0    0    
+Craig Paquette  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Darryl Kile     1    1    27   34   31   1    1    6    7    1    0    0    0    2    0    4    1    0    1    0    0    0    0    0    10   11   82   54   
+
+
+
+Cardinals - Player stat verification
+STAT ERROR: Player: Darryl Kile     Stat: GO    Expected: 9    Got: 10
+1 stat error(s).
+
+Game ID: CHN200008160
+
+PROCESSING 2000 Cincinnati Reds
+
+Reds
+
+Batting
+                   G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Chris Stynes       1    5    5    0    2    3    1    0    0    0    0    0    0    0    0    0    0    0    1    0    
+Barry Larkin       1    5    4    1    1    1    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Ken Griffey        1    5    1    1    0    0    0    0    0    0    0    4    1    0    0    0    0    0    0    0    
+Dmitri Young       1    5    5    1    2    3    1    0    0    0    1    0    0    1    1    0    0    0    0    0    
+Sean Casey         1    5    4    0    1    1    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Aaron Boone        1    5    3    0    0    0    0    0    0    0    1    1    0    0    0    1    0    0    0    0    
+Michael Tucker     1    3    3    0    0    0    0    0    0    0    0    0    0    1    1    0    0    0    0    0    
+Benito Santiago    1    5    3    0    1    1    0    0    0    0    1    2    1    0    0    0    0    0    0    1    
+Osvaldo Fernandez  1    2    2    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Hal Morris         1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Elmer Dessens      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Scott Williamson   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Dante Bichette     1    2    2    0    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Eddie Taubensee    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Alex Ochoa         1    1    1    0    1    1    0    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Danny Graves       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Pokey Reese        1    0    0    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                   G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Osvaldo Fernandez  1    1    18   26   24   3    3    7    8    1    0    0    0    2    0    0    1    0    0    0    0    0    0    0    8    9    69   41   
+Elmer Dessens      1    0    3    5    5    0    0    3    3    0    0    0    0    0    0    1    1    0    0    0    0    0    0    0    1    0    17   10   
+Scott Williamson   1    0    6    7    6    0    0    0    0    0    0    0    0    1    0    3    0    0    0    0    0    0    2    0    1    2    23   16   
+Danny Graves       1    0    3    3    3    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    2    1    2    1    
+
+
+
+Reds - Player stat verification
+STAT ERROR: Player: Osvaldo Fernandez  Stat: GO    Expected: 7    Got: 8
+1 stat error(s).
+
+Game ID: CIN200005180
+
+PROCESSING 2000 Colorado Rockies
+
+Rockies
+
+Batting
+                  G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Tom Goodwin       1    5    4    1    3    3    0    0    0    0    1    1    0    0    0    0    0    0    2    0    
+Mike Lansing      1    5    5    0    1    1    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Larry Walker      1    5    3    0    1    3    0    1    0    0    1    1    0    0    1    1    0    0    0    0    
+Jeff Cirillo      1    5    4    1    1    1    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Todd Helton       1    5    4    0    1    1    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Jeffrey Hammonds  1    5    3    1    1    1    0    0    0    0    0    2    0    0    0    0    0    0    0    1    
+Brent Mayne       1    4    3    0    2    2    0    0    0    0    1    1    0    1    0    0    0    0    0    0    
+Neifi Perez       1    4    4    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Rolando Arrojo    1    2    2    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Darren Bragg      1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Julian Tavarez    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Mike Myers        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Terry Shumpert    1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Mike DeJean       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Scott Servais     1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+
+Pitching
+                  G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Rolando Arrojo    1    1    18   29   28   5    5    12   14   2    0    0    0    0    0    4    2    1    0    0    0    0    0    0    7    5    81   53   
+Julian Tavarez    1    0    5    7    7    0    0    2    2    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    3    1    34   19   
+Mike Myers        1    0    1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    2    0    0    0    6    3    
+Mike DeJean       1    0    3    4    4    1    1    1    4    0    0    1    0    0    0    2    0    0    0    0    0    0    0    0    0    1    12   7    
+
+
+
+Rockies - Player stat verification
+STAT ERROR: Player: Rolando Arrojo    Stat: GO    Expected: 6    Got: 7
+1 stat error(s).
+
+Game ID: COL200006130
+
+
+Braves
+
+Batting
+                   G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Rafael Furcal      1    7    6    0    1    1    0    0    0    0    0    1    0    0    0    0    0    0    1    0    
+Andruw Jones       1    7    6    2    2    5    0    0    1    0    1    1    0    1    0    0    0    0    1    0    
+Chipper Jones      1    7    7    2    3    6    0    0    1    0    1    0    0    0    0    0    0    0    0    0    
+B.J. Surhoff       1    6    2    2    1    2    1    0    0    0    2    2    0    1    0    0    1    1    1    0    
+Andres Galarraga   1    6    4    0    2    2    0    0    0    0    1    1    1    0    0    1    0    0    0    0    
+Brian Jordan       1    6    5    0    0    0    0    0    0    0    0    1    0    1    1    0    0    0    0    0    
+Javy Lopez         1    6    6    0    2    2    0    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Keith Lockhart     1    5    5    0    3    3    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+John Burkett       1    3    3    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Terry Mulholland   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Wally Joyner       1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Mike Remlinger     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Kerry Ligtenberg   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Bobby Bonilla      1    1    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Reggie Sanders     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Walt Weiss         1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Scott Kamieniecki  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Andy Ashby         1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Paul Bako          1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Tom Glavine        1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+John Rocker        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Stan Belinda       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                   G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+John Burkett       1    1    17   28   23   6    6    9    13   2    1    0    0    2    1    3    0    0    2    1    0    0    0    0    6    6    92   57   
+Terry Mulholland   1    0    4    3    3    0    0    1    1    0    0    0    0    0    0    1    1    0    0    0    0    0    1    0    1    0    11   8    
+Mike Remlinger     1    0    3    3    3    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    1    1    10   7    
+Kerry Ligtenberg   1    0    3    6    5    0    0    2    2    0    0    0    0    1    1    0    0    0    0    0    0    0    0    0    2    1    28   16   
+Scott Kamieniecki  1    0    6    6    5    0    0    1    1    0    0    0    0    1    0    1    2    0    0    0    0    0    0    0    3    0    17   10   
+John Rocker        1    0    1    3    3    1    1    2    2    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    6    5    
+Stan Belinda       1    0    1    3    2    0    0    1    1    0    0    0    0    1    1    1    0    0    0    0    0    0    2    1    0    0    8    4    
+
+
+
+Braves - Player stat verification
+STAT ERROR: Player: Scott Kamieniecki  Stat: GO    Expected: 2    Got: 3
+1 stat error(s).
+
+Game ID: COL200008220
+
+PROCESSING 2000 Florida Marlins
+
+Giants
+
+Batting
+                   G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Marvin Benard      1    7    5    1    0    0    0    0    0    0    0    2    0    2    0    0    0    0    1    0    
+Bill Mueller       1    7    6    2    2    3    1    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Barry Bonds        1    6    4    3    1    1    0    0    0    0    0    2    1    1    0    0    0    0    0    0    
+Jeff Kent          1    6    4    1    1    4    0    0    1    0    4    2    0    1    0    0    0    0    0    0    
+Ellis Burks        1    6    6    0    3    3    0    0    0    0    2    0    0    1    0    0    0    0    0    1    
+J.T. Snow          1    6    6    0    2    2    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Rich Aurilia       1    6    5    0    0    0    0    0    0    0    1    0    0    0    0    0    0    1    0    0    
+Bobby Estalella    1    6    5    0    1    2    1    0    0    0    0    1    0    3    0    0    0    0    0    0    
+Livan Hernandez    1    4    3    0    0    0    0    0    0    0    0    0    0    2    0    0    1    0    0    0    
+Robb Nen           1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Felipe Crespo      1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Felix Rodriguez    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Aaron Fultz        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Armando Rios       1    1    1    0    1    3    0    1    0    0    1    0    0    0    0    0    0    0    0    0    
+Calvin Murray      1    0    0    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Ramon E. Martinez  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                   G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Livan Hernandez    1    1    24   36   33   6    3    14   18   1    0    1    0    1    0    6    1    0    2    0    0    0    0    0    5    7    109  75   
+Robb Nen           1    0    3    5    4    1    1    1    4    0    0    1    0    1    0    0    0    0    0    0    0    0    2    2    1    2    13   6    
+Felix Rodriguez    1    0    3    4    3    0    0    1    1    0    0    0    0    1    0    0    0    0    0    0    0    0    0    0    2    0    13   7    
+Aaron Fultz        1    0    6    6    5    0    0    0    0    0    0    0    0    0    0    2    0    0    1    0    0    0    1    0    0    3    13   10   
+
+
+
+Giants - Player stat verification
+STAT ERROR: Player: Felix Rodriguez    Stat: GO    Expected: 1    Got: 2
+1 stat error(s).
+
+Game ID: FLO200004260
+
+
+Mets
+
+Batting
+                  G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Rickey Henderson  1    4    4    0    1    1    0    0    0    0    0    0    0    1    1    0    0    0    0    0    
+Derek Bell        1    4    3    1    2    5    0    0    1    0    1    1    0    1    0    0    0    0    0    1    
+Edgardo Alfonzo   1    4    4    0    1    1    0    0    0    0    0    0    0    0    1    0    0    0    0    1    
+Mike Piazza       1    4    4    0    2    2    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Robin Ventura     1    3    3    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Todd Zeile        1    4    2    0    0    0    0    0    0    0    0    2    0    1    0    0    0    0    0    0    
+Jay Payton        1    2    2    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Rey Ordonez       1    3    3    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Bill Pulsipher    1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Jon Nunnally      1    2    2    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Rich Rodriguez    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Turk Wendell      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Matt Franco       1    2    2    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Armando Benitez   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Kurt Abbott       1    1    1    0    1    2    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                  G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Bill Pulsipher    1    1    10   21   19   5    5    9    11   2    0    0    0    2    0    4    0    0    0    0    0    0    0    0    4    2    65   41   
+Rich Rodriguez    1    0    7    9    5    0    0    1    1    0    0    0    0    3    0    1    1    0    0    1    0    0    2    1    1    4    33   15   
+Turk Wendell      1    0    4    5    4    0    0    0    0    0    0    0    0    1    0    2    0    0    0    0    0    0    2    0    1    1    20   16   
+Armando Benitez   1    0    3    8    5    4    4    2    6    1    0    1    1    3    0    0    0    0    0    0    0    0    0    0    2    1    34   19   
+
+
+
+Mets - Player stat verification
+STAT ERROR: Player: Rich Rodriguez    Stat: AO    Expected: 3    Got: 4
+1 stat error(s).
+
+Game ID: FLO200005060
+
+
+Marlins
+
+Batting
+                   G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Luis Castillo      1    4    4    1    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Mark Kotsay        1    4    4    1    2    5    0    0    1    0    1    0    0    0    0    0    0    0    0    0    
+Henry Rodriguez    1    4    4    0    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Preston Wilson     1    4    4    0    2    2    0    0    0    0    1    0    0    1    0    0    0    0    0    1    
+Mike Lowell        1    4    4    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Derrek Lee         1    4    3    0    0    0    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Dave Berg          1    4    4    0    1    1    0    0    0    0    0    0    0    0    1    0    0    0    0    0    
+Ramon Castro       1    3    2    0    1    1    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Jesus Sanchez      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Chris Clapinski    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Vic Darensbourg    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Braden Looper      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Dan Miceli         1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Mark Smith         1    1    1    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Antonio Alfonseca  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Kevin Millar       1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                   G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Jesus Sanchez      1    1    6    8    7    1    1    1    4    0    0    1    0    1    0    5    0    0    0    0    0    0    0    0    1    0    37   26   
+Vic Darensbourg    1    0    11   15   13   2    1    3    3    0    0    0    0    1    0    3    0    0    1    0    0    0    0    0    2    5    46   30   
+Braden Looper      1    0    4    6    4    0    0    1    1    0    0    0    0    1    0    0    1    1    0    0    0    0    2    2    3    0    12   5    
+Dan Miceli         1    0    3    3    3    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    2    1    7    5    
+Antonio Alfonseca  1    0    3    3    3    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    0    0    0    1    7    6    
+
+
+
+Marlins - Player stat verification
+STAT ERROR: Player: Braden Looper      Stat: GO    Expected: 2    Got: 3
+1 stat error(s).
+
+Game ID: FLO200008260
+
+PROCESSING 2000 Houston Astros
+
+Astros
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Craig Biggio     1    5    5    1    1    1    0    0    0    0    0    0    0    1    1    0    0    0    0    0    
+Roger Cedeno     1    4    4    1    1    3    0    1    0    0    2    0    0    2    0    0    0    0    0    0    
+Jeff Bagwell     1    4    4    1    1    4    0    0    1    0    2    0    0    1    0    0    0    0    0    0    
+Richard Hidalgo  1    4    3    1    0    0    0    0    0    0    0    0    0    1    0    1    0    0    1    0    
+Moises Alou      1    4    3    1    1    4    0    0    1    0    2    1    0    0    0    0    0    0    0    0    
+Bill Spiers      1    4    4    0    2    3    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Mitch Meluskey   1    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Tim Bogar        1    4    3    1    1    1    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Chris Holt       1    3    2    0    1    1    0    0    0    0    0    0    0    1    0    0    1    0    0    0    
+Doug Henry       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Mike Maddux      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Daryle Ward      1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Chris Holt       1    1    19   28   22   9    9    7    16   1    1    2    1    5    0    5    3    0    0    1    0    0    0    0    9    2    88   51   
+Doug Henry       1    0    5    7    5    1    1    1    4    0    0    1    0    2    0    1    0    0    0    0    0    0    2    2    1    2    24   10   
+Mike Maddux      1    0    3    4    4    0    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    2    5    3    
+
+
+
+Astros - Player stat verification
+STAT ERROR: Player: Chris Holt       Stat: GO    Expected: 8    Got: 9
+1 stat error(s).
+
+Game ID: HOU200004110
+
+
+Cubs
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Eric Young       1    5    4    2    2    4    2    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Ricky Gutierrez  1    5    3    1    1    4    0    0    1    0    3    1    0    1    0    0    0    1    0    0    
+Mark Grace       1    5    4    2    1    1    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Sammy Sosa       1    5    4    0    2    3    1    0    0    0    1    1    0    0    0    0    0    0    0    0    
+Henry Rodriguez  1    4    4    1    1    4    0    0    1    0    2    0    0    2    0    0    0    0    0    0    
+Glenallen Hill   1    3    3    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Shane Andrews    1    4    4    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jeff Reed        1    4    3    0    1    1    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Scott Downs      1    3    3    1    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Damon Buford     1    2    2    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Kyle Farnsworth  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Roosevelt Brown  1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Mark Guthrie     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Brian Williams   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jose Nieves      1    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Scott Downs      1    1    15   25   22   6    6    9    15   3    0    1    0    2    0    3    0    0    0    1    0    0    0    0    4    7    82   45   
+Kyle Farnsworth  1    0    6    9    7    1    1    3    3    0    0    0    0    1    1    2    0    0    1    0    0    0    2    2    0    2    29   17   
+Mark Guthrie     1    0    1    4    4    3    3    3    4    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    16   11   
+Brian Williams   1    0    2    3    1    1    1    1    2    1    0    0    0    0    0    0    0    1    0    1    0    0    2    2    0    2    14   8    
+
+
+
+Cubs - Player stat verification
+STAT ERROR: Player: Scott Downs      Stat: AO    Expected: 6    Got: 7
+STAT ERROR: Player: Brian Williams   Stat: AO    Expected: 1    Got: 2
+2 stat error(s).
+
+Game ID: HOU200004250
+
+
+Reds
+
+Batting
+                   G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Pokey Reese        1    5    5    2    3    3    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Michael Tucker     1    4    4    1    1    4    0    0    1    0    2    0    0    1    0    0    0    0    0    0    
+Ken Griffey        1    5    4    3    3    10   1    0    2    0    4    0    0    0    0    1    0    0    1    0    
+Dmitri Young       1    5    5    1    2    5    0    0    1    0    1    0    0    2    0    0    0    0    0    0    
+Sean Casey         1    4    4    0    2    2    0    0    0    0    1    0    0    1    0    0    0    0    0    0    
+Aaron Boone        1    4    3    0    1    1    0    0    0    0    0    1    0    1    0    0    0    0    1    0    
+Benito Santiago    1    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Juan Castro        1    3    3    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    
+Osvaldo Fernandez  1    3    3    0    0    0    0    0    0    0    0    0    0    3    0    0    0    0    0    0    
+Scott Sullivan     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Hal Morris         1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Travis Dawkins     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Dennys Reyes       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Alex Ochoa         1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Dante Bichette     1    1    0    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Scott Williamson   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                   G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Osvaldo Fernandez  1    1    19   25   22   4    4    6    14   2    0    2    0    2    0    4    3    1    0    0    0    0    0    0    6    6    76   46   
+Scott Sullivan     1    0    4    8    7    3    3    3    7    1    0    1    0    1    1    2    0    0    0    0    0    0    1    1    0    2    21   13   
+Dennys Reyes       1    0    1    2    1    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    1    0    1    0    8    3    
+Scott Williamson   1    0    3    5    3    0    0    1    1    0    0    0    0    2    1    0    1    0    0    0    0    0    0    0    2    0    14   4    
+
+
+
+Reds - Player stat verification
+STAT ERROR: Player: Osvaldo Fernandez  Stat: GO    Expected: 5    Got: 6
+1 stat error(s).
+
+Game ID: HOU200005130
+
+
+Reds
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Pokey Reese      1    5    4    0    0    0    0    0    0    0    0    1    0    1    0    0    0    0    1    0    
+Sean Casey       1    3    3    1    1    1    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Ken Griffey      1    5    1    1    0    0    0    0    0    0    0    3    0    1    0    1    0    0    0    0    
+Dmitri Young     1    5    4    0    0    0    0    0    0    0    0    1    0    2    0    0    0    0    0    0    
+Eddie Taubensee  1    5    5    1    2    2    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Dante Bichette   1    4    4    0    1    1    0    0    0    0    2    0    0    0    0    0    0    0    0    0    
+Aaron Boone      1    4    4    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Juan Castro      1    4    4    0    2    4    0    1    0    0    1    0    0    1    0    0    0    0    0    0    
+Steve Parris     1    2    2    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Hal Morris       1    2    1    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Chris Stynes     1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Elmer Dessens    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Michael Tucker   1    1    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Manny Aybar      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Steve Parris     1    1    18   31   26   6    6    10   15   2    0    1    0    4    0    3    2    1    0    0    1    0    0    0    8    5    109  60   
+Elmer Dessens    1    0    3    3    2    0    0    0    0    0    0    0    0    1    0    1    0    0    0    0    0    0    0    0    1    0    13   6    
+Manny Aybar      1    0    3    8    7    4    1    3    4    1    0    0    0    1    0    1    0    0    0    0    0    0    0    0    0    2    22   12   
+
+
+
+Reds - Player stat verification
+STAT ERROR: Player: Steve Parris     Stat: GO    Expected: 7    Got: 8
+1 stat error(s).
+
+Game ID: HOU200005140
+
+
+Astros
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Craig Biggio     1    4    4    0    1    1    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Lance Berkman    1    4    4    0    1    2    1    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Jeff Bagwell     1    4    3    0    1    1    0    0    0    0    0    0    0    1    0    1    0    0    0    0    
+Ken Caminiti     1    4    4    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Moises Alou      1    4    4    0    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Richard Hidalgo  1    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Mitch Meluskey   1    4    4    0    1    2    1    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Tim Bogar        1    3    2    0    0    0    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Shane Reynolds   1    2    1    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    
+Julio Lugo       1    1    1    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Doug Henry       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Daryle Ward      1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Shane Reynolds   1    1    21   30   28   2    2    9    14   0    1    1    0    0    0    5    1    2    0    0    0    0    0    0    11   2    106  70   
+Doug Henry       1    0    6    8    7    0    0    0    0    0    0    0    0    1    0    2    0    0    0    0    0    0    0    0    2    2    21   13   
+
+
+
+Astros - Player stat verification
+STAT ERROR: Player: Shane Reynolds   Stat: GO    Expected: 10   Got: 11
+1 stat error(s).
+
+Game ID: HOU200006070
+
+
+Astros
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Julio Lugo       1    5    5    2    2    5    0    0    1    0    2    0    0    2    0    0    0    0    0    0    
+Tim Bogar        1    5    5    1    1    4    0    0    1    0    2    0    0    2    0    0    0    0    0    0    
+Jeff Bagwell     1    4    3    2    1    4    0    0    1    0    1    1    0    0    0    0    0    0    0    0    
+Richard Hidalgo  1    4    4    1    1    2    1    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Moises Alou      1    4    3    1    1    4    0    0    1    0    2    1    0    0    0    0    0    0    0    0    
+Lance Berkman    1    4    2    2    1    4    0    0    1    0    1    2    0    1    0    0    0    0    0    0    
+Chris Truby      1    4    3    1    1    4    0    0    1    0    3    0    0    2    0    1    0    0    0    0    
+Raul Chavez      1    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Scott Elarton    1    3    3    1    1    2    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Glen Barker      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Daryle Ward      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Marc Valdes      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Tripp Cromer     1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Octavio Dotel    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Scott Elarton    1    1    22   33   30   5    5    8    12   1    0    1    0    3    0    3    1    0    0    0    0    0    0    0    10   8    95   58   
+Marc Valdes      1    0    2    6    5    4    3    2    3    1    0    0    0    0    0    0    0    1    0    0    0    0    3    1    2    0    22   14   
+Octavio Dotel    1    0    3    5    5    1    1    2    5    0    0    1    0    0    0    1    0    0    0    0    1    0    2    2    1    1    22   15   
+
+
+
+Astros - Player stat verification
+STAT ERROR: Player: Scott Elarton    Stat: GO    Expected: 9    Got: 10
+1 stat error(s).
+
+Game ID: HOU200008160
+
+
+Astros
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Bill Spiers      1    5    5    1    3    3    0    0    0    0    2    0    0    0    0    0    0    0    0    0    
+Mitch Meluskey   1    5    5    2    3    9    0    0    2    0    3    0    0    0    0    0    0    0    0    0    
+Jeff Bagwell     1    5    4    2    3    3    0    0    0    0    0    1    1    0    0    0    0    0    0    0    
+Lance Berkman    1    5    4    1    2    2    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Moises Alou      1    5    4    1    1    1    0    0    0    0    1    1    0    0    1    0    0    0    0    0    
+Richard Hidalgo  1    4    4    1    1    2    1    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Chris Truby      1    4    3    0    0    0    0    0    0    0    2    0    0    0    0    0    0    1    0    0    
+Tim Bogar        1    4    4    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Wade Miller      1    3    3    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Joe Slusarski    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Julio Lugo       1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Glen Barker      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Wade Miller      1    1    21   33   29   2    2    9    13   2    1    0    0    3    0    7    1    1    0    0    0    0    0    0    7    6    105  66   
+Joe Slusarski    1    0    6    9    8    1    1    2    3    1    0    0    0    1    0    3    0    0    0    0    0    0    0    0    1    2    32   22   
+
+
+
+Astros - Player stat verification
+STAT ERROR: Player: Wade Miller      Stat: GO    Expected: 6    Got: 7
+1 stat error(s).
+
+Game ID: HOU200009030
+
+
+Astros
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Roger Cedeno     1    4    3    0    1    1    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Julio Lugo       1    4    4    1    1    3    0    1    0    0    0    0    0    1    1    0    0    0    0    0    
+Jeff Bagwell     1    4    4    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Mitch Meluskey   1    4    2    0    0    0    0    0    0    0    0    2    0    1    0    0    0    0    0    0    
+Moises Alou      1    4    4    0    0    0    0    0    0    0    0    0    0    1    1    0    0    0    0    0    
+Richard Hidalgo  1    4    4    0    1    2    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Chris Truby      1    3    3    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Tim Bogar        1    3    3    1    1    2    1    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Chris Holt       1    2    2    0    1    2    1    0    0    0    1    0    0    1    0    0    0    0    0    0    
+Daryle Ward      1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Marc Valdes      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Chris Holt       1    1    21   35   30   5    4    10   11   1    0    0    0    3    1    4    1    0    0    1    0    0    0    0    10   6    105  63   
+Marc Valdes      1    0    6    8    7    0    0    1    1    0    0    0    0    1    0    1    0    0    0    0    0    0    0    0    3    1    20   13   
+
+
+
+Astros - Player stat verification
+STAT ERROR: Player: Chris Holt       Stat: GO    Expected: 9    Got: 10
+1 stat error(s).
+
+Game ID: HOU200009040
+
+
+Pirates
+
+Batting
+                  G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Adrian Brown      1    6    5    1    3    3    0    0    0    0    2    0    0    0    0    0    0    1    0    0    
+Jason Kendall     1    6    4    0    1    1    0    0    0    0    1    0    0    0    0    2    0    0    0    0    
+Brian Giles       1    6    5    1    2    3    1    0    0    0    2    0    0    0    0    0    0    1    0    0    
+John Vander Wal   1    5    4    1    2    2    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Kevin Young       1    6    5    1    2    2    0    0    0    0    1    0    0    0    1    1    0    0    0    0    
+Enrique Wilson    1    6    6    1    2    3    1    0    0    0    1    0    0    0    1    0    0    0    0    0    
+Warren Morris     1    5    2    2    0    0    0    0    0    0    1    2    0    0    0    0    0    1    0    0    
+Pat Meares        1    5    5    1    3    3    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Jose Silva        1    2    1    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    
+Bronson Arroyo    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Abraham O. Nunez  1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Brian O'Connor    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Alex Hernandez    1    2    2    1    1    2    1    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Mike Williams     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Keith Osik        1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    
+Mike Benjamin     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Scott Sauerbeck   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                  G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Jose Silva        1    1    9    19   15   9    9    5    11   0    0    2    0    3    0    2    0    1    0    0    0    0    0    0    6    1    63   37   
+Bronson Arroyo    1    0    6    8    7    0    0    1    1    0    0    0    0    0    0    1    0    1    0    0    0    0    0    0    3    2    33   20   
+Brian O'Connor    1    0    6    6    6    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    2    3    10   8    
+Mike Williams     1    0    6    8    7    0    0    1    2    1    0    0    0    1    0    1    0    0    0    0    0    0    0    0    4    1    24   15   
+Scott Sauerbeck   1    0    2    5    3    1    1    2    2    0    0    0    0    2    0    0    0    0    0    0    0    0    0    0    1    0    21   8    
+
+
+
+Pirates - Player stat verification
+STAT ERROR: Player: Scott Sauerbeck   Stat: GO    Expected: 0    Got: 1
+1 stat error(s).
+
+Game ID: HOU200009160
+
+PROCESSING 2000 Los Angeles Dodgers
+
+Giants
+
+Batting
+                   G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Marvin Benard      1    4    3    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Bill Mueller       1    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Barry Bonds        1    4    4    0    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Jeff Kent          1    4    3    0    0    0    0    0    0    0    0    1    0    2    0    0    0    0    0    0    
+Ellis Burks        1    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+J.T. Snow          1    4    4    0    0    0    0    0    0    0    0    0    0    2    1    0    0    0    0    0    
+Rich Aurilia       1    4    3    0    0    0    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Bobby Estalella    1    4    3    0    1    2    1    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Russ Ortiz         1    2    1    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    
+Ramon E. Martinez  1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Scott Linebrink    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                   G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Russ Ortiz         1    1    21   30   27   4    4    8    15   1    0    2    0    3    0    7    1    0    0    0    0    0    0    0    6    6    102  60   
+Scott Linebrink    1    0    3    5    5    1    1    2    5    0    0    1    0    0    0    0    0    0    0    0    0    0    0    0    1    2    11   9    
+
+
+
+Giants - Player stat verification
+STAT ERROR: Player: Russ Ortiz         Stat: GO    Expected: 5    Got: 6
+1 stat error(s).
+
+Game ID: LAN200007230
+
+
+Dodgers
+
+Batting
+                   G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Tom Goodwin        1    4    4    1    2    2    0    0    0    0    0    0    0    1    0    0    0    0    0    1    
+Mark Grudzielanek  1    4    3    0    1    2    1    0    0    0    1    1    0    0    0    0    0    0    0    0    
+Gary Sheffield     1    4    4    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Shawn Green        1    4    4    1    1    4    0    0    1    0    1    0    0    1    0    0    0    0    0    0    
+Eric Karros        1    4    4    1    2    4    2    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Todd Hundley       1    3    3    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Adrian Beltre      1    4    3    0    1    1    0    0    0    0    1    1    0    0    0    0    0    0    0    0    
+Alex Cora          1    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Matt Herges        1    2    2    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Chad Kreuter       1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Antonio Osuna      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Dave Hansen        1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                   G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Matt Herges        1    1    18   26   21   3    3    5    8    1    1    0    0    2    0    3    0    1    1    1    0    0    0    0    9    5    70   40   
+Antonio Osuna      1    0    9    16   13   4    4    5    12   1    0    2    0    3    0    0    1    0    0    0    0    1    0    0    3    5    54   28   
+
+
+
+Dodgers - Player stat verification
+STAT ERROR: Player: Antonio Osuna      Stat: GO    Expected: 2    Got: 3
+1 stat error(s).
+
+Game ID: LAN200008070
+
+
+Dodgers
+
+Batting
+                   G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Tom Goodwin        1    4    4    0    1    1    0    0    0    0    0    0    0    1    0    0    0    0    1    0    
+Mark Grudzielanek  1    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Gary Sheffield     1    3    3    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Shawn Green        1    4    3    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Eric Karros        1    4    4    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Todd Hundley       1    4    4    0    2    2    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Adrian Beltre      1    4    4    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Alex Cora          1    4    3    0    1    1    0    0    0    0    0    0    0    1    0    1    0    0    0    0    
+Carlos Perez       1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Matt Herges        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Chris Donnels      1    1    1    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Antonio Osuna      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Paul LoDuca        1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Dave Hansen        1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Onan Masaoka       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Gregg Olson        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                   G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Carlos Perez       1    1    11   20   19   6    5    10   14   1    0    1    0    0    0    2    0    0    1    0    0    0    0    0    4    3    81   55   
+Matt Herges        1    0    4    8    5    0    0    2    3    1    0    0    0    2    1    0    0    0    1    0    0    0    1    1    2    1    24   10   
+Antonio Osuna      1    0    6    10   9    1    0    1    1    0    0    0    0    1    0    2    0    0    0    0    0    0    0    0    2    2    25   18   
+Onan Masaoka       1    0    3    4    3    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    0    0    3    0    20   11   
+Gregg Olson        1    0    3    6    5    1    1    2    2    0    0    0    0    1    0    1    0    0    0    0    0    0    0    0    0    2    27   15   
+
+
+
+Dodgers - Player stat verification
+STAT ERROR: Player: Carlos Perez       Stat: TBF   Expected: 21   Got: 20
+STAT ERROR: Player: Carlos Perez       Stat: BB    Expected: 1    Got: 0
+STAT ERROR: Player: Carlos Perez       Stat: IBB   Expected: 1    Got: 0
+STAT ERROR: Player: Matt Herges        Stat: TBF   Expected: 7    Got: 8
+STAT ERROR: Player: Matt Herges        Stat: BB    Expected: 1    Got: 2
+STAT ERROR: Player: Matt Herges        Stat: IBB   Expected: 0    Got: 1
+6 stat error(s).
+
+Game ID: LAN200009050
+
+
+Rockies
+
+Batting
+                    G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Juan Pierre         1    5    4    1    1    1    0    0    0    0    1    1    0    0    0    0    0    0    0    0    
+Neifi Perez         1    4    4    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jeff Cirillo        1    4    3    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Todd Helton         1    4    2    0    1    1    0    0    0    0    1    1    0    1    0    0    0    1    0    0    
+Todd Walker         1    2    2    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Todd Hollandsworth  1    4    4    1    1    1    0    0    0    0    0    0    0    1    1    0    0    0    0    0    
+Butch Huskey        1    4    3    2    2    5    0    0    1    0    1    1    0    0    0    0    0    0    0    0    
+Brent Mayne         1    4    3    0    2    2    0    0    0    0    1    0    0    1    0    0    0    1    0    0    
+Masato Yoshii       1    1    1    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    
+Giovanni Carrara    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Carlos Mendoza      1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+John Wasdin         1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Terry Shumpert      1    2    2    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Adam Melhuse        1    1    1    1    1    3    0    1    0    0    2    0    0    0    0    0    0    0    0    0    
+Craig House         1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Mike DeJean         1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jeff Frye           1    1    1    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    
+Elvis Pena          1    1    1    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Pete Walker         1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                    G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Masato Yoshii       1    1    8    15   13   5    5    5    11   0    0    2    0    2    0    0    0    0    0    0    0    0    0    0    4    4    42   23   
+Giovanni Carrara    1    0    4    5    5    1    1    1    4    0    0    1    0    0    0    1    0    0    0    0    0    0    1    0    3    0    22   13   
+John Wasdin         1    0    6    11   9    3    3    4    8    1    0    1    0    1    0    3    0    1    0    0    0    0    0    0    1    1    50   32   
+Craig House         1    0    0    3    1    3    3    1    4    0    0    1    0    2    0    0    0    0    0    0    0    0    0    0    0    0    15   4    
+Mike DeJean         1    0    3    4    3    0    0    0    0    0    0    0    0    1    0    1    0    0    0    0    0    0    0    0    0    2    10   5    
+Pete Walker         1    0    3    3    3    0    0    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    1    1    3    2    
+
+
+
+Rockies - Player stat verification
+STAT ERROR: Player: Craig House         Stat: TBF   Expected: 4    Got: 3
+STAT ERROR: Player: Craig House         Stat: BB    Expected: 3    Got: 2
+STAT ERROR: Player: Mike DeJean         Stat: TBF   Expected: 3    Got: 4
+STAT ERROR: Player: Mike DeJean         Stat: BB    Expected: 0    Got: 1
+4 stat error(s).
+
+Game ID: LAN200009170
+
+PROCESSING 2000 Milwaukee Brewers
+
+Indians
+
+Batting
+                G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Kenny Lofton    1    5    5    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Omar Vizquel    1    4    4    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Roberto Alomar  1    4    3    1    2    3    1    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Jim Thome       1    4    2    1    0    0    0    0    0    0    0    2    0    1    0    0    0    0    0    0    
+David Justice   1    4    4    1    1    4    0    0    1    0    3    0    0    1    1    0    0    0    0    0    
+Travis Fryman   1    4    4    1    2    2    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Richie Sexson   1    4    4    0    1    2    1    0    0    0    1    0    0    1    0    0    0    0    0    0    
+Sandy Alomar    1    4    3    0    1    1    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Chuck Finley    1    4    4    0    0    0    0    0    0    0    0    0    0    3    0    0    0    0    0    0    
+
+Pitching
+                G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Chuck Finley    1    1    27   34   31   2    2    7    9    2    0    0    0    3    0    5    3    0    0    0    0    0    0    0    13   5    105  67   
+
+
+
+Indians - Player stat verification
+STAT ERROR: Player: Chuck Finley    Stat: GO    Expected: 12   Got: 13
+1 stat error(s).
+
+Game ID: MIL200006060
+
+
+Cubs
+
+Batting
+                G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Eric Young      1    4    4    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Brant Brown     1    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Sammy Sosa      1    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Mark Grace      1    4    4    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Glenallen Hill  1    3    3    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Willie Greene   1    3    3    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jeff Reed       1    3    2    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Jeff Huson      1    3    3    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Ismael Valdes   1    2    1    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    
+Damon Buford    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Ruben Quevedo   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Felix Heredia   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Ismael Valdes   1    1    21   27   26   1    1    8    9    1    0    0    0    1    0    5    3    0    0    0    0    0    0    0    5    8    81   53   
+Ruben Quevedo   1    0    0    2    2    2    2    2    2    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    10   5    
+Felix Heredia   1    0    3    4    4    1    1    1    3    0    1    0    0    0    0    1    0    0    0    0    1    0    2    2    0    2    8    6    
+
+
+
+Cubs - Player stat verification
+STAT ERROR: Player: Ismael Valdes   Stat: GO    Expected: 4    Got: 5
+1 stat error(s).
+
+Game ID: MIL200007010
+
+
+Brewers
+
+Batting
+                       G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Marquis Grissom        1    5    5    0    2    2    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Mark Loretta           1    5    3    1    1    1    0    0    0    0    0    2    0    0    0    0    0    0    0    0    
+Geoff Jenkins          1    5    4    1    1    2    1    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Richie Sexson          1    5    4    1    1    2    1    0    0    0    1    1    0    1    0    0    0    0    0    0    
+Jeromy Burnitz         1    5    4    1    1    3    0    1    0    0    2    1    0    1    0    0    0    0    0    0    
+Jose Hernandez         1    5    5    0    3    3    0    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Raul Casanova          1    5    5    1    1    2    1    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Luis Lopez             1    4    4    1    2    5    0    0    1    0    2    0    0    1    0    0    0    0    0    0    
+Jimmy Haynes           1    2    1    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    
+Valerio De Los Santos  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Mark Sweeney           1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Everett Stull          1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Ray King               1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Tyler Houston          1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Juan Acevedo           1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+James Mouton           1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                       G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Jimmy Haynes           1    1    16   29   26   6    6    12   16   1    0    1    0    2    0    1    1    1    0    0    1    0    0    0    7    6    80   49   
+Valerio De Los Santos  1    0    2    3    3    0    0    1    1    0    0    0    0    0    0    1    0    0    0    0    0    0    1    0    1    0    13   9    
+Everett Stull          1    0    4    6    5    0    0    1    1    0    0    0    0    1    0    0    0    0    0    0    1    0    0    0    2    2    16   9    
+Ray King               1    0    2    2    2    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    2    0    0    1    11   7    
+Juan Acevedo           1    0    3    4    4    1    1    1    4    0    0    1    0    0    0    0    0    0    0    0    0    0    0    0    2    1    9    7    
+
+
+
+Brewers - Player stat verification
+STAT ERROR: Player: Jimmy Haynes           Stat: GO    Expected: 6    Got: 7
+1 stat error(s).
+
+Game ID: MIL200009090
+
+PROCESSING 2000 Montreal Expos
+
+Astros
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Roger Cedeno     1    5    4    0    2    2    0    0    0    0    0    1    0    0    0    0    0    0    2    1    
+Craig Biggio     1    5    4    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    2    0    
+Jeff Bagwell     1    5    3    0    0    0    0    0    0    0    0    2    0    2    0    0    0    0    0    0    
+Ken Caminiti     1    5    3    1    3    3    0    0    0    0    0    2    0    0    0    0    0    0    0    0    
+Moises Alou      1    5    4    0    0    0    0    0    0    0    0    1    0    1    2    0    0    0    0    0    
+Richard Hidalgo  1    5    5    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Mitch Meluskey   1    4    3    1    1    4    0    0    1    0    2    0    0    0    0    0    0    1    0    0    
+Bill Spiers      1    4    4    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Octavio Dotel    1    3    2    0    1    1    0    0    0    0    0    0    0    1    0    0    1    0    0    0    
+Jose Cabrera     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Yorkis Perez     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Daryle Ward      1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Joe Slusarski    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Octavio Dotel    1    1    21   27   24   1    1    3    7    1    0    1    0    3    1    8    1    0    0    0    0    0    0    0    3    9    95   54   
+Jose Cabrera     1    0    2    4    4    1    1    2    5    0    0    1    0    0    0    0    0    0    0    0    0    0    0    0    1    1    6    4    
+Yorkis Perez     1    0    1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    1    0    0    0    3    3    
+Joe Slusarski    1    0    4    6    5    1    1    3    3    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    1    1    20   15   
+
+
+
+Astros - Player stat verification
+STAT ERROR: Player: Joe Slusarski    Stat: GO    Expected: 0    Got: 1
+1 stat error(s).
+
+Game ID: MON200005190
+
+
+Astros
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Roger Cedeno     1    5    5    1    1    2    1    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Craig Biggio     1    1    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    1    0    
+Jeff Bagwell     1    5    4    1    1    1    0    0    0    0    1    1    0    2    0    0    0    0    0    0    
+Ken Caminiti     1    5    5    2    2    6    1    0    1    0    1    0    0    1    0    0    0    0    0    0    
+Moises Alou      1    5    5    0    2    2    0    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Mitch Meluskey   1    4    4    0    1    1    0    0    0    0    1    0    0    2    0    0    0    0    0    0    
+Richard Hidalgo  1    2    1    0    0    0    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Bill Spiers      1    4    4    1    1    4    0    0    1    0    1    0    0    0    1    0    0    0    0    0    
+Scott Elarton    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Russ Johnson     1    4    3    2    1    1    0    0    0    0    1    1    0    1    0    0    0    0    1    0    
+Mike Maddux      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Matt Mieske      1    3    3    0    1    2    1    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Daryle Ward      1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Chris Holt       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Tim Bogar        1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Doug Henry       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Scott Elarton    1    1    9    21   18   7    3    10   18   5    0    1    0    2    0    2    1    0    0    1    0    0    0    0    3    3    69   38   
+Mike Maddux      1    0    6    9    8    1    1    3    3    0    0    0    0    0    0    1    0    0    1    0    0    0    2    0    2    2    33   21   
+Chris Holt       1    0    6    8    8    0    0    2    2    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    2    3    24   15   
+Doug Henry       1    0    3    3    3    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    0    2    11   7    
+
+
+
+Astros - Player stat verification
+STAT ERROR: Player: Scott Elarton    Stat: GO    Expected: 2    Got: 3
+1 stat error(s).
+
+Game ID: MON200005200
+
+PROCESSING 2000 New York Mets
+
+Mets
+
+Batting
+                  G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Jon Nunnally      1    6    5    0    1    1    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Derek Bell        1    6    2    0    0    0    0    0    0    0    0    4    0    1    0    0    0    0    0    0    
+Edgardo Alfonzo   1    6    5    0    2    2    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Robin Ventura     1    6    6    1    1    4    0    0    1    0    1    0    0    1    1    0    0    0    0    0    
+Todd Zeile        1    4    4    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jay Payton        1    3    2    0    0    0    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Todd Pratt        1    5    3    0    0    0    0    0    0    0    0    1    0    0    1    1    0    0    0    0    
+Rey Ordonez       1    5    5    0    1    2    1    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Glendon Rusch     1    2    2    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Turk Wendell      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Melvin Mora       1    3    2    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Matt Franco       1    2    2    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Rickey Henderson  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    
+Dennis Cook       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Kurt Abbott       1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Armando Benitez   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                  G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Glendon Rusch     1    1    23   30   28   1    1    6    11   2    0    1    0    1    1    6    0    0    1    0    0    0    0    0    8    8    76   52   
+Turk Wendell      1    0    4    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    2    0    0    3    8    6    
+Dennis Cook       1    0    6    6    6    0    0    1    1    0    0    0    0    0    0    1    1    0    0    0    0    0    0    0    4    0    31   20   
+Armando Benitez   1    0    3    6    3    1    1    1    1    0    0    0    0    2    1    0    0    0    1    0    0    0    0    0    0    2    16   7    
+
+
+
+Mets - Player stat verification
+STAT ERROR: Player: Dennis Cook       Stat: GO    Expected: 3    Got: 4
+1 stat error(s).
+
+Game ID: NYN200004270
+
+PROCESSING 2000 Philadelphia Phillies
+
+Marlins
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Luis Castillo    1    5    4    0    0    0    0    0    0    0    0    0    0    1    0    0    1    0    0    0    
+Mark Kotsay      1    5    4    0    2    3    1    0    0    0    1    1    0    0    0    0    0    0    0    0    
+Cliff Floyd      1    5    5    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Preston Wilson   1    5    5    0    1    1    0    0    0    0    0    0    0    3    0    0    0    0    0    0    
+Kevin Millar     1    4    3    1    2    5    0    0    1    0    1    1    0    0    0    0    0    0    0    0    
+Andy Fox         1    4    4    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Dave Berg        1    4    4    0    1    2    1    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Paul Bako        1    4    3    0    0    0    0    0    0    0    0    1    0    2    0    0    0    0    0    0    
+Chuck Smith      1    2    2    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Mark Smith       1    1    1    1    1    2    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Joe Strong       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Armando Almanza  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Ricky Bones      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Derrek Lee       1    1    1    1    1    4    0    0    1    0    1    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Chuck Smith      1    1    18   25   22   1    1    6    10   1    0    1    0    3    0    6    1    0    0    0    0    0    0    0    6    4    80   44   
+Joe Strong       1    0    1    4    4    3    3    3    4    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    1    0    19   13   
+Armando Almanza  1    0    2    5    3    0    0    1    1    0    0    0    0    2    0    1    0    0    0    0    0    0    2    2    0    1    16   7    
+Ricky Bones      1    0    3    4    2    0    0    0    0    0    0    0    0    2    1    0    1    0    0    0    0    0    1    0    2    0    13   3    
+
+
+
+Marlins - Player stat verification
+STAT ERROR: Player: Armando Almanza  Stat: TBF   Expected: 6    Got: 5
+STAT ERROR: Player: Armando Almanza  Stat: BB    Expected: 3    Got: 2
+STAT ERROR: Player: Ricky Bones      Stat: TBF   Expected: 3    Got: 4
+STAT ERROR: Player: Ricky Bones      Stat: BB    Expected: 1    Got: 2
+4 stat error(s).
+
+Game ID: PHI200006130
+
+
+Phillies
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Doug Glanville   1    4    4    0    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Tomas Perez      1    4    4    1    0    0    0    0    0    0    0    0    0    3    0    0    0    0    0    0    
+Bobby Abreu      1    4    4    1    2    2    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Pat Burrell      1    4    3    1    1    1    0    0    0    0    1    1    0    1    0    0    0    0    0    0    
+Travis Lee       1    4    2    0    0    0    0    0    0    0    0    2    0    1    0    0    0    0    0    0    
+Kevin Jordan     1    4    3    0    0    0    0    0    0    0    0    1    0    0    1    0    0    0    0    0    
+Marlon Anderson  1    4    4    0    2    2    0    0    0    0    2    0    0    1    0    0    0    0    1    0    
+Tom Prince       1    3    2    0    0    0    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Robert Person    1    3    2    0    0    0    0    0    0    0    0    0    0    1    0    0    1    0    0    0    
+Kevin Sefcik     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Chris Brock      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Ed Vosberg       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jeff Brantley    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Robert Person    1    1    22   27   23   2    1    5    7    2    0    0    0    3    0    6    1    0    0    1    1    0    0    0    3    11   84   50   
+Chris Brock      1    0    2    4    4    0    0    2    2    0    0    0    0    0    0    1    0    0    0    0    0    0    1    1    0    1    10   5    
+Ed Vosberg       1    0    1    2    1    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    0    0    1    0    8    3    
+Jeff Brantley    1    0    2    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    1    0    0    0    5    3    
+
+
+
+Phillies - Player stat verification
+STAT ERROR: Player: Robert Person    Stat: AO    Expected: 10   Got: 11
+1 stat error(s).
+
+Game ID: PHI200008120
+
+PROCESSING 2000 Pittsburgh Pirates
+
+Expos
+
+Batting
+                   G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Peter Bergeron     1    4    4    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jose Vidro         1    4    4    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Rondell White      1    4    4    1    1    2    1    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Vladimir Guerrero  1    4    3    0    1    1    0    0    0    0    1    1    1    0    0    0    0    0    0    0    
+Lee Stevens        1    4    4    1    2    2    0    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Michael Barrett    1    4    3    0    0    0    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Chris Widger       1    4    4    1    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Orlando Cabrera    1    3    3    0    1    2    1    0    0    0    2    0    0    0    0    0    0    0    0    0    
+Carl Pavano        1    2    2    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Miguel Batista     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Anthony Telford    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Geoff Blum         1    2    2    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Wilton Guerrero    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                   G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Carl Pavano        1    1    15   22   20   3    2    6    7    1    0    0    0    1    0    6    0    0    0    1    0    0    0    0    3    6    79   52   
+Miguel Batista     1    0    2    6    5    3    3    3    7    1    0    1    0    1    0    2    0    0    0    0    0    0    0    0    0    0    28   18   
+Anthony Telford    1    0    7    7    6    0    0    1    1    0    0    0    0    1    0    1    1    0    0    0    0    0    1    0    3    1    28   18   
+
+
+
+Expos - Player stat verification
+STAT ERROR: Player: Anthony Telford    Stat: GO    Expected: 2    Got: 3
+1 stat error(s).
+
+Game ID: PIT200004120
+
+
+Cubs
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Eric Young       1    5    5    0    2    2    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Ricky Gutierrez  1    5    4    0    0    0    0    0    0    0    0    1    0    0    1    0    0    0    0    0    
+Sammy Sosa       1    5    3    1    1    4    0    0    1    0    1    2    0    1    0    0    0    0    0    0    
+Mark Grace       1    5    5    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jose Nieves      1    4    4    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Brant Brown      1    4    4    1    1    4    0    0    1    0    2    0    0    0    0    0    0    0    0    0    
+Damon Buford     1    4    4    0    1    1    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Joe Girardi      1    4    3    1    1    1    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Kevin Tapani     1    2    2    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jeff Huson       1    1    1    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    
+Todd Van Poppel  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Felix Heredia    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Willie Greene    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Tim Worrell      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Kevin Tapani     1    1    18   22   20   2    1    3    6    0    0    1    0    2    0    6    1    0    0    0    0    0    0    0    7    4    83   54   
+Todd Van Poppel  1    0    6    8    8    2    0    1    4    0    0    1    0    0    0    4    0    0    0    0    0    0    0    0    1    1    28   20   
+Felix Heredia    1    0    3    3    3    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    0    2    6    3    
+Tim Worrell      1    0    1    5    4    1    1    3    4    1    0    0    0    1    1    0    0    0    0    0    0    0    0    0    1    0    22   12   
+
+
+
+Cubs - Player stat verification
+STAT ERROR: Player: Kevin Tapani     Stat: GO    Expected: 6    Got: 7
+1 stat error(s).
+
+Game ID: PIT200006290
+
+
+Pirates
+
+Batting
+                    G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Warren Morris       1    5    5    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Jason Kendall       1    5    5    0    2    3    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Wil Cordero         1    5    4    0    1    1    0    0    0    0    0    0    0    0    0    1    0    0    0    0    
+Brian Giles         1    5    4    0    0    0    0    0    0    0    0    1    0    2    0    0    0    0    0    0    
+Kevin Young         1    5    5    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Emil Brown          1    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Aramis Ramirez      1    4    4    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Pat Meares          1    4    4    1    1    4    0    0    1    0    1    0    0    0    0    0    0    0    0    0    
+Kris Benson         1    3    3    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Mike Williams       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+John Vander Wal     1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jason Christiansen  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                    G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Kris Benson         1    1    27   32   31   1    1    7    11   1    0    1    0    1    0    9    3    0    0    0    0    0    0    0    8    7    103  66   
+Mike Williams       1    0    3    5    4    0    0    1    1    0    0    0    0    1    0    0    0    0    0    0    0    0    0    0    3    0    13   6    
+Jason Christiansen  1    0    3    7    4    3    3    2    3    1    0    0    0    2    1    1    0    0    1    0    0    0    0    0    0    1    20   9    
+
+
+
+Pirates - Player stat verification
+STAT ERROR: Player: Kris Benson         Stat: GO    Expected: 7    Got: 8
+1 stat error(s).
+
+Game ID: PIT200007250
+
+
+Pirates
+
+Batting
+                   G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Adrian Brown       1    5    4    1    1    1    0    0    0    0    0    1    0    2    0    0    0    0    0    0    
+Jason Kendall      1    5    5    1    2    3    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Brian Giles        1    4    2    1    0    0    0    0    0    0    0    2    0    0    0    0    0    0    0    0    
+John Vander Wal    1    4    4    1    2    5    0    0    1    0    4    0    0    0    0    0    0    0    0    0    
+Enrique Wilson     1    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Warren Morris      1    4    3    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Alex Hernandez     1    4    4    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Pat Meares         1    3    3    0    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Jose Silva         1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Adam Hyzdu         1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Brian O'Connor     1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Abraham O. Nunez   1    2    2    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Josias Manzanillo  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Alex Ramirez       1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Jeff Wallace       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Brian Smith        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                   G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Jose Silva         1    1    6    11   10   4    4    5    10   2    0    1    0    1    0    0    1    0    0    0    0    0    0    0    2    3    34   21   
+Brian O'Connor     1    0    9    14   10   0    0    1    1    0    0    0    0    4    0    4    0    0    0    0    0    0    0    0    1    4    59   26   
+Josias Manzanillo  1    0    9    13   11   2    2    4    5    1    0    0    0    2    1    2    1    0    0    0    0    0    1    0    3    2    51   29   
+Jeff Wallace       1    0    0    4    1    2    2    1    1    0    0    0    0    3    0    0    0    0    0    0    1    0    0    0    0    0    19   6    
+Brian Smith        1    0    3    4    3    0    0    1    1    0    0    0    0    0    0    2    0    0    0    1    0    0    3    1    0    1    10   9    
+
+
+
+Pirates - Player stat verification
+STAT ERROR: Player: Josias Manzanillo  Stat: GO    Expected: 2    Got: 3
+1 stat error(s).
+
+Game ID: PIT200009110
+
+PROCESSING 2000 San Diego Padres
+
+Brewers
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Ron Belliard     1    5    5    1    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Mark Loretta     1    5    5    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Jeromy Burnitz   1    5    3    1    0    0    0    0    0    0    0    2    0    0    0    0    0    0    0    0    
+Geoff Jenkins    1    5    5    2    2    3    1    0    0    0    1    0    0    2    0    0    0    0    0    0    
+Charlie Hayes    1    5    4    2    2    2    0    0    0    0    1    1    0    1    0    0    0    0    0    0    
+Jose Hernandez   1    5    3    1    1    1    0    0    0    0    0    1    0    1    1    1    0    0    0    0    
+Marquis Grissom  1    5    4    1    3    7    1    0    1    0    4    1    0    0    0    0    0    0    0    0    
+Henry Blanco     1    5    4    0    0    0    0    0    0    0    0    1    1    1    1    0    0    0    0    0    
+Jimmy Haynes     1    4    4    0    1    2    1    0    0    0    0    0    0    3    0    0    0    0    0    0    
+David Weathers   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Jimmy Haynes     1    1    25   33   31   3    3    7    11   1    0    1    0    2    0    3    1    0    0    0    0    0    0    0    7    14   77   45   
+David Weathers   1    0    2    3    3    0    0    1    1    0    0    0    0    0    0    1    0    0    0    0    0    0    2    1    1    0    13   11   
+
+
+
+Brewers - Player stat verification
+STAT ERROR: Player: Jimmy Haynes     Stat: GO    Expected: 6    Got: 7
+1 stat error(s).
+
+Game ID: SDN200005290
+
+
+Padres
+
+Batting
+                     G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Ruben Rivera         1    4    4    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Al Martin            1    4    4    2    2    3    1    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Tony Gwynn           1    4    4    0    2    3    1    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Phil Nevin           1    4    4    1    1    2    1    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Ryan Klesko          1    4    3    0    1    1    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Bret Boone           1    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Carlos A. Hernandez  1    4    4    0    2    3    1    0    0    0    2    0    0    2    0    0    0    0    0    0    
+Damian Jackson       1    4    4    0    2    2    0    0    0    0    0    0    0    1    0    0    0    0    0    1    
+Adam Eaton           1    2    2    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Dave Magadan         1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Matt Whiteside       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Kevin Walker         1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Kory DeHaan          1    0    0    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Ed Sprague           1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Eric Owens           1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Trevor Hoffman       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                     G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Adam Eaton           1    1    21   27   23   1    1    4    4    0    0    0    0    3    0    4    1    0    1    0    0    0    0    0    11   4    96   63   
+Matt Whiteside       1    0    2    4    2    0    0    0    0    0    0    0    0    2    1    0    0    0    0    0    0    0    0    0    2    0    14   6    
+Kevin Walker         1    0    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    2    0    1    0    2    1    
+Trevor Hoffman       1    0    3    3    3    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    0    0    1    0    10   7    
+
+
+
+Padres - Player stat verification
+STAT ERROR: Player: Adam Eaton           Stat: GO    Expected: 10   Got: 11
+1 stat error(s).
+
+Game ID: SDN200006110
+
+
+Expos
+
+Batting
+                   G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Terry Jones        1    3    3    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Milton Bradley     1    5    5    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Jose Vidro         1    5    5    2    2    5    0    0    1    0    2    0    0    0    0    0    0    0    0    0    
+Vladimir Guerrero  1    5    5    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Lee Stevens        1    5    4    0    4    6    0    1    0    0    1    1    0    0    0    0    0    0    0    0    
+Geoff Blum         1    4    4    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Orlando Cabrera    1    5    4    0    0    0    0    0    0    0    0    1    1    0    0    0    0    0    0    0    
+Michael Barrett    1    5    4    0    1    1    0    0    0    0    0    1    0    0    1    0    0    0    0    0    
+Javier Vazquez     1    2    1    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    
+Wilton Guerrero    1    1    0    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Andy Tracy         1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Peter Bergeron     1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Mike Mordecai      1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Steve Kline        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Anthony Telford    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    
+Julio Santana      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                   G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Javier Vazquez     1    1    21   29   28   3    2    9    11   2    0    0    0    1    0    5    2    0    0    0    0    0    0    0    13   1    89   66   
+Steve Kline        1    0    8    10   8    0    0    1    1    0    0    0    0    2    0    0    1    0    0    0    1    0    0    0    5    2    30   15   
+Anthony Telford    1    0    1    3    2    0    0    1    1    0    0    0    0    0    0    1    0    1    0    0    0    0    1    0    0    0    17   10   
+Julio Santana      1    0    2    5    2    1    1    1    1    0    0    0    0    2    1    1    0    0    1    0    0    0    0    0    0    0    21   9    
+
+
+
+Expos - Player stat verification
+STAT ERROR: Player: Javier Vazquez     Stat: GO    Expected: 12   Got: 13
+1 stat error(s).
+
+Game ID: SDN200008190
+
+
+Padres
+
+Batting
+                    G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Damian Jackson      1    5    3    2    2    5    0    0    1    0    2    2    0    0    0    0    0    0    1    1    
+Eric Owens          1    5    4    2    2    2    0    0    0    0    2    1    0    0    0    0    0    0    2    0    
+Ryan Klesko         1    5    4    0    1    1    0    0    0    0    0    1    1    2    0    0    0    0    0    0    
+Phil Nevin          1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+John Mabry          1    4    3    0    1    1    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Mike Darr           1    4    2    1    1    1    0    0    0    0    0    2    0    0    1    0    0    0    1    0    
+Desi Relaford       1    5    2    1    0    0    0    0    0    0    1    2    0    0    0    1    0    0    0    0    
+Wiki Gonzalez       1    4    4    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Woody Williams      1    4    4    1    3    3    0    0    0    0    1    0    0    1    0    0    0    0    0    0    
+Dave Magadan        1    4    2    0    0    0    0    0    0    0    1    1    0    0    0    0    0    1    0    0    
+Ruben Rivera        1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Dave Maurer         1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Heathcliff Slocumb  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Ed Sprague          1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Kory DeHaan         1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Trevor Hoffman      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                    G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Woody Williams      1    1    18   29   24   6    6    8    12   1    0    1    0    5    0    5    2    0    0    0    0    0    0    0    4    7    89   52   
+Dave Maurer         1    0    4    5    4    0    0    0    0    0    0    0    0    1    0    1    0    0    0    0    1    0    0    0    3    0    22   12   
+Heathcliff Slocumb  1    0    2    3    2    0    0    1    1    0    0    0    0    1    0    1    0    0    0    0    0    0    1    0    0    0    13   8    
+Trevor Hoffman      1    0    3    3    3    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    2    6    4    
+
+
+
+Padres - Player stat verification
+STAT ERROR: Player: Dave Maurer         Stat: TBF   Expected: 6    Got: 5
+STAT ERROR: Player: Dave Maurer         Stat: BB    Expected: 2    Got: 1
+STAT ERROR: Player: Heathcliff Slocumb  Stat: TBF   Expected: 2    Got: 3
+STAT ERROR: Player: Heathcliff Slocumb  Stat: BB    Expected: 0    Got: 1
+4 stat error(s).
+
+Game ID: SDN200009060
+
+
+Padres
+
+Batting
+                    G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Damian Jackson      1    4    3    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Desi Relaford       1    4    4    0    1    1    0    0    0    0    1    0    0    1    1    0    0    0    0    0    
+Ryan Klesko         1    4    4    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Phil Nevin          1    4    4    0    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+John Mabry          1    4    4    0    0    0    0    0    0    0    0    0    0    1    1    0    0    0    0    0    
+Mike Darr           1    3    3    0    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Eric Owens          1    2    2    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    
+Ben Davis           1    3    3    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Adam Eaton          1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Ruben Rivera        1    2    2    1    2    3    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Will Cunnane        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Joe Vitiello        1    1    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Dave Maurer         1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Heathcliff Slocumb  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Buddy Carlyle       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                    G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Adam Eaton          1    1    15   23   20   4    4    8    14   3    0    1    0    2    0    2    2    1    0    0    0    0    0    0    6    4    90   50   
+Will Cunnane        1    0    6    6    6    0    0    1    1    0    0    0    0    0    0    2    0    0    0    0    0    0    0    0    2    1    25   15   
+Dave Maurer         1    0    2    4    2    2    2    0    0    0    0    0    0    0    0    2    0    2    0    0    0    0    0    0    0    0    14   7    
+Heathcliff Slocumb  1    0    1    4    3    1    1    2    4    2    0    0    0    0    0    0    0    1    0    0    0    0    2    2    1    0    10   6    
+Buddy Carlyle       1    0    3    4    3    0    0    0    0    0    0    0    0    1    0    1    0    0    0    0    0    0    0    0    0    2    18   9    
+
+
+
+Padres - Player stat verification
+STAT ERROR: Player: Adam Eaton          Stat: GO    Expected: 5    Got: 6
+1 stat error(s).
+
+Game ID: SDN200009260
+
+PROCESSING 2000 San Francisco Giants
+
+Cubs
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Eric Young       1    5    4    1    2    4    2    0    0    0    0    1    0    0    0    0    0    0    1    0    
+Joe Girardi      1    5    4    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    
+Sammy Sosa       1    5    3    2    2    5    0    0    1    0    2    1    1    0    0    0    0    1    0    0    
+Glenallen Hill   1    4    4    0    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Julio Zuleta     1    5    5    1    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Willie Greene    1    5    4    0    1    2    1    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Damon Buford     1    4    2    0    1    1    0    0    0    0    2    2    0    0    0    0    0    0    0    0    
+Jose Nieves      1    4    3    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    
+Kerry Wood       1    3    3    0    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Dave Martinez    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Raul Gonzalez    1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Felix Heredia    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Todd Van Poppel  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Rick Aguilera    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Kerry Wood       1    1    21   28   21   1    1    3    5    2    0    0    0    6    0    5    2    0    1    0    0    0    0    0    6    7    96   50   
+Felix Heredia    1    0    1    2    2    0    0    1    1    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    0    0    7    6    
+Todd Van Poppel  1    0    2    3    3    0    0    1    1    0    0    0    0    0    0    1    0    0    0    0    0    0    1    0    0    1    9    6    
+Rick Aguilera    1    0    3    3    3    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    1    1    10   6    
+
+
+
+Cubs - Player stat verification
+STAT ERROR: Player: Kerry Wood       Stat: GO    Expected: 5    Got: 6
+1 stat error(s).
+
+Game ID: SFN200005280
+
+
+Reds
+
+Batting
+                   G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Pokey Reese        1    4    4    1    1    1    0    0    0    0    0    0    0    1    0    0    0    0    1    0    
+Michael Tucker     1    4    4    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    1    
+Barry Larkin       1    4    4    0    0    0    0    0    0    0    1    0    0    1    0    0    0    0    0    0    
+Ken Griffey        1    4    2    0    0    0    0    0    0    0    0    2    0    1    0    0    0    0    1    0    
+Dmitri Young       1    4    4    1    2    2    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Sean Casey         1    4    4    0    1    2    1    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Aaron Boone        1    3    2    0    2    3    1    0    0    0    0    0    0    0    0    1    0    0    0    0    
+Benito Santiago    1    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Osvaldo Fernandez  1    2    1    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    
+Juan Castro        1    1    1    0    1    2    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Hal Morris         1    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Scott Williamson   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+David Cromer       1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Danny Graves       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                   G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Osvaldo Fernandez  1    1    18   26   20   1    1    3    5    2    0    0    0    6    0    5    1    0    0    0    0    0    0    0    6    6    73   37   
+Scott Williamson   1    0    6    8    6    0    0    1    1    0    0    0    0    2    0    3    1    0    0    0    0    0    0    0    1    1    28   15   
+Danny Graves       1    0    2    6    5    2    2    3    3    0    0    0    0    1    0    0    0    0    0    0    0    0    0    0    1    1    23   11   
+
+
+
+Reds - Player stat verification
+STAT ERROR: Player: Osvaldo Fernandez  Stat: GO    Expected: 5    Got: 6
+1 stat error(s).
+
+Game ID: SFN200006130
+
+
+Giants
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Calvin Murray    1    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Rich Aurilia     1    4    4    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Barry Bonds      1    4    3    1    2    6    1    0    1    0    1    1    0    0    0    0    0    0    0    0    
+Jeff Kent        1    4    3    0    0    0    0    0    0    0    0    1    0    0    1    0    0    0    0    1    
+Ellis Burks      1    3    3    2    2    5    1    1    0    0    0    0    0    0    0    0    0    0    0    0    
+Russ Davis       1    2    2    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+J.T. Snow        1    3    3    0    1    1    0    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Bobby Estalella  1    3    2    0    0    0    0    0    0    0    0    1    0    2    0    0    0    0    0    0    
+Joe Nathan       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Russ Ortiz       1    2    1    0    0    0    0    0    0    0    0    0    0    1    0    0    1    0    0    0    
+Bill Mueller     1    2    1    1    0    0    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Marvin Benard    1    1    1    0    1    1    0    0    0    0    2    0    0    0    0    0    0    0    0    0    
+Felix Rodriguez  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Armando Rios     1    1    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Robb Nen         1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Joe Nathan       1    1    3    6    4    0    0    1    1    0    0    0    0    2    0    0    0    0    0    0    0    0    0    0    0    3    17   6    
+Russ Ortiz       1    0    18   22   20   1    0    4    6    2    0    0    0    1    0    5    0    0    0    1    0    0    0    0    3    9    66   39   
+Felix Rodriguez  1    0    3    4    3    0    0    1    1    0    0    0    0    1    0    1    0    0    0    0    0    0    0    0    0    1    19   10   
+Robb Nen         1    0    3    4    4    1    1    1    4    0    0    1    0    0    0    3    0    0    0    0    0    0    0    0    0    0    13   12   
+
+
+
+Giants - Player stat verification
+STAT ERROR: Player: Russ Ortiz       Stat: AO    Expected: 8    Got: 9
+1 stat error(s).
+
+Game ID: SFN200007130
+
+PROCESSING 2000 St. Louis Cardinals
+
+Diamondbacks
+
+Batting
+                  G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Tony Womack       1    4    4    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Craig Counsell    1    4    4    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Luis Gonzalez     1    4    3    1    1    1    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Steve Finley      1    4    4    1    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Matt D. Williams  1    4    3    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Erubiel Durazo    1    4    3    0    1    2    1    0    0    0    2    1    0    0    0    0    0    0    0    0    
+Danny Bautista    1    4    4    0    1    1    0    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Kelly Stinnett    1    3    3    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    
+Randy Johnson     1    2    1    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Dan Plesac        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Russ Springer     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Hanley Frias      1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Mike Morgan       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                  G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Randy Johnson     1    1    17   29   21   5    4    5    10   2    0    1    0    7    0    7    0    0    1    0    0    0    0    0    1    8    102  53   
+Dan Plesac        1    0    0    1    0    1    1    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    2    0    0    0    5    1    
+Russ Springer     1    0    4    7    6    1    1    2    5    0    0    1    1    1    0    1    1    0    0    0    0    0    3    3    1    1    20   12   
+Mike Morgan       1    0    3    3    3    0    0    0    0    0    0    0    0    0    0    1    1    0    0    0    0    0    0    0    1    0    8    6    
+
+
+
+Diamondbacks - Player stat verification
+STAT ERROR: Player: Russ Springer     Stat: GO    Expected: 0    Got: 1
+1 stat error(s).
+
+Game ID: SLN200007250
+
+
+Astros
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Roger Cedeno     1    6    5    1    4    4    0    0    0    0    0    0    0    1    0    0    1    0    0    1    
+Julio Lugo       1    5    5    0    0    0    0    0    0    0    0    0    0    1    1    0    0    0    0    0    
+Jeff Bagwell     1    5    3    2    2    4    2    0    0    0    1    1    0    0    0    1    0    0    0    0    
+Richard Hidalgo  1    5    5    1    3    6    0    0    1    0    2    0    0    0    0    0    0    0    0    0    
+Moises Alou      1    5    4    1    0    0    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Mitch Meluskey   1    5    3    0    2    3    1    0    0    0    1    1    0    1    0    0    1    0    0    0    
+Bill Spiers      1    5    4    1    0    0    0    0    0    0    0    1    1    1    0    0    0    0    0    0    
+Chris Truby      1    5    5    1    1    4    0    0    1    0    3    0    0    1    1    0    0    0    0    0    
+Wade Miller      1    2    2    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Daryle Ward      1    1    1    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Glen Barker      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    
+Wayne Franklin   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Joe Slusarski    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Marc Valdes      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Lance Berkman    1    1    0    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Octavio Dotel    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jose Cabrera     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Wade Miller      1    1    18   26   23   4    3    6    10   1    0    1    0    2    0    4    1    1    0    0    0    0    0    0    7    5    93   58   
+Wayne Franklin   1    0    3    4    4    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    2    7    4    
+Joe Slusarski    1    0    1    3    3    0    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    1    1    0    0    10   7    
+Marc Valdes      1    0    2    1    1    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    2    0    1    0    4    2    
+Octavio Dotel    1    0    5    9    6    1    1    1    2    1    0    0    0    3    0    3    0    0    0    0    0    0    0    0    0    2    43   24   
+Jose Cabrera     1    0    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    3    0    0    1    3    2    
+
+
+
+Astros - Player stat verification
+STAT ERROR: Player: Wade Miller      Stat: GO    Expected: 6    Got: 7
+1 stat error(s).
+
+Game ID: SLN200009190
+
+
+--> Execution time: 42052.05473804474

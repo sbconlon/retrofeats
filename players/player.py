@@ -1,8 +1,17 @@
 # This file defines the player object
 
+# Internal imports
+from players.stats.batting import BattingStats
+from players.stats.pitching import PitchingStats
+
 # External imports
 import numpy as np
+import os
 import pandas as pd
+import sys
+
+# Adding top level project directory
+sys.path.insert(0, '../')
 
 class Player:
 
@@ -24,16 +33,25 @@ class Player:
         self.id = pid
         self.name = name
         self.position = None
-        # Historic Stats
+        # Stats
         self.pitching = None
         self.batting = None
         self.fielding = None
         # In-Game Stats
-        self.pcount = 0 # Pitches thrown
+        #self.pcount = 0 # Pitches thrown
         # Features
         self.batting_features = None
         self.pitching_features = None
         self.fielding_features = None
+        #
+        # Special flag for when a pinch hitter is substituted into a
+        # two strike count. In this case, the original batter is
+        # responsible if his replacement strikes out.
+        #
+        # If the batter is responsible for his own strikeout, then the
+        # variable is falsey.
+        # Else, the variable holds the player who is responsible for the strikeout.
+        self.ph_strikeout_ownership = ''
 
     # Featurize ingame pitcher stats
     def get_ingame_pfeats(self):
@@ -41,8 +59,8 @@ class Player:
         columns = []
         #
         # Pitch count
-        vector.append(self.pcount)
-        columns.append('P_Count')
+        #vector.append(self.pcount)
+        #columns.append('P_Count')
         return pd.Series(dict(zip(columns, vector)), dtype=np.float64)
 
     # Featurize stats that are accumulated in-game
@@ -74,3 +92,34 @@ class Player:
             if self.fielding_features is None:
                 self.fielding_features = self.fielding.featurize()
             return self.fielding_features
+    
+    def save_stats(self, game_id, overwrite=False):
+        player_file = f'./data/players-daybyday/{self.id}.csv'
+        cols = ['B_'+bstat for bstat in BattingStats.counting_stats]
+        cols += ['P_'+pstat for pstat in PitchingStats.counting_stats]
+        cols += ['game.key']
+        # Open the player's day by day stat df if it exists, else create it
+        df = (
+              pd.read_csv(player_file) 
+              if os.path.isfile(player_file)
+              else pd.DataFrame(columns=cols)
+        )
+        # Skip if overwrite is not enabled and game already exists
+        # Else, remove the old row.
+        if any(df['game.key'] == game_id):
+            if overwrite:
+                df.drop(df['game.key'] == game_id, inplace=True)
+            else:
+                return
+        # Else, add the row for the game in the dataframe and write the csv out to disk.
+        row = pd.Series(0, index=cols)
+        row['game.key'] = game_id
+        if self.batting:
+            for stat in BattingStats.counting_stats:
+                row['B_'+stat] = self.batting.in_game_stats[stat]
+        if self.pitching:
+            for stat in PitchingStats.counting_stats:
+                row['P_'+stat] = self.pitching.in_game_stats[stat]
+        df.loc[len(df.index)] = row
+        df.sort_values(by='game.key', key=lambda col: [int(x[3:]) for x in col], inplace=True, ignore_index=True)
+        df.to_csv(player_file, index=False)

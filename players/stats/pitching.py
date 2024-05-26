@@ -37,14 +37,14 @@ class PitchingStats:
     path = 'data/players-daybyday'
 
     # Counting stats
-    counting_stats = ['G',      # Games
-                      'GS',     # Games pitched
-                      'CG',     # Complete game
-                      'SHO',    # Complete game shutout
-                      'GF',     # Game finished (last pitcher to appear for their team)
-                      'W',      # Win
-                      'L',      # Loss
-                      'SV',     # Save
+    counting_stats = ['G',      # Game appearances
+                      'GS',     # Games started
+                      #'CG',     # Complete game
+                      #'SHO',    # Complete game shutout
+                      #'GF',     # Game finished (last pitcher to appear for their team)
+                      #'W',      # Win
+                      #'L',      # Loss
+                      #'SV',     # Save
                       'OUT',    # Outs recorded
                       'TBF',    # Total batters faced
                       'AB',     # At-bats against
@@ -55,7 +55,7 @@ class PitchingStats:
                       '2B',     # Doubles allowed
                       '3B',     # Triples allowed
                       'HR',     # Homeruns allowed
-                      'HR4',    # Inside the park HRs allowed
+                      'HR4',    # Grand slams allowed
                       'BB',     # Base on balls (walks) allowed
                       'IBB',    # Intentional walks allowed
                       'SO',     # Strikeouts
@@ -96,40 +96,49 @@ class PitchingStats:
     stats = counting_stats + list(derived_stats.keys()) + list(weighted_stats.keys())
 
     def __init__(self, game_id, player_id, stat_features, intervals=(5, 10, 20)):
+        #
+        # Player associated with these stats
+        self.gid = game_id
+        self.pid = player_id
+        #
+        # Initialize in-game player counting stats
+        self.in_game_stats = {stat_name: 0 for stat_name in PitchingStats.counting_stats}
+        #
         # Initialize player stats over given intervals
         self.intervals = intervals
-        self.stats = {i: {s: None for s in PitchingStats.stats} for i in self.intervals}
-
-         # Stats from this player's pitching we want as features in our dataset
+        self.historical_stats = None
+        #
+        # Stats from this player's pitching we want as features in our dataset
         for stat in stat_features:
             assert(stat in PitchingStats.stats)
         self.stat_features = stat_features
         self.features = None
 
+    def read_historical_stats(self):
+        # Initialize 2D dictionary: game iterval -> stat category -> stat value
+        self.stats = {i: {s: None for s in PitchingStats.stats} for i in self.intervals}
         # Read stats from retrosplits
-        stats_df = pd.read_csv(PitchingStats.path+f'/{player_id}.csv')
+        stats_df = pd.read_csv(PitchingStats.path+f'/{self.pid}.csv')
         stats_df['date'] = pd.to_datetime(stats_df['date'])
         constants_df = pd.read_csv('data/wOBA-weights.csv')
-        present = stats_df.index[stats_df['game.key'] == game_id][0]
-
+        present = stats_df.index[stats_df['game.key'] == self.gid][0]
         # Populate from retrosplits into the batter stats object
-        for past in intervals:
+        for past in self.intervals:
             # Get games in the given interval
             df = stats_df.iloc[max(present-past, 0):present]
-
             # Get counting stats from retrosplits
             for cs in PitchingStats.counting_stats:
                 self.stats[past][cs] = df['P_'+cs].sum()
-
             # Calculate derived stats
             for ds in PitchingStats.derived_stats:
                 self.stats[past][ds] = PitchingStats.derived_stats[ds](self.stats[past])
-
             # Calculate weighted stats (weighted based on year)
             for ws in PitchingStats.weighted_stats:
                 self.stats[past][ws] = PitchingStats.weighted_stats[ws](df, constants_df)
 
     def featurize(self):
+        if self.historical_stats is None:
+            self.read_historical_stats()
         if self.features is None:
             feat_dict = {}
             for i in self.intervals:
@@ -137,3 +146,17 @@ class PitchingStats:
                     feat_dict[f'P_G{i}_{stat}'] = self.stats[i][stat]
             self.features = pd.Series(feat_dict, dtype=np.float64)
         return self.features
+    
+    # Increments count for the given list of stats    
+    def increment_stats(self, stats):
+        for name in stats:
+            self.in_game_stats[name] += 1
+    
+    # Adds the value to the given stat
+    def add_to_stat(self, stat, value):
+        self.in_game_stats[stat] += value
+
+    # Get the player's stats for a given game
+    def get_game_stats(self, game_id, stat_path):
+        stats_df = pd.read_csv(stat_path+f'/{self.pid}.csv')
+        return stats_df[stats_df['game.key'] == game_id].iloc[0]

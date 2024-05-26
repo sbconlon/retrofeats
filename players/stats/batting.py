@@ -47,7 +47,7 @@ class BattingStats:
     # Path to input dataset
     path = 'data/players-daybyday'
 
-    # Counting stats
+    # Historical Counting stats
     counting_stats = ['G',     # Games
                       'PA',    # Plate appearances
                       'AB',    # At-bats
@@ -57,7 +57,7 @@ class BattingStats:
                       '2B',    # Doubles
                       '3B',    # Triples
                       'HR',    # Homeruns
-                      'HR4',   # Inside the park HRs
+                      'HR4',   # Grand slams
                       'RBI',   # Runs batted in
                       'BB',    # Base on balls (walks)
                       'IBB',   # Intentional walks
@@ -69,7 +69,7 @@ class BattingStats:
                       'SB',    # Stolen base
                       'CS']    # Caught stealing
 
-    # Derived Stats
+    # Historical Derived Stats
     #  * K%  - Strikeout frequency
     #  * BB% - Walk frequency
     #  * ISO - Isolated power
@@ -99,10 +99,17 @@ class BattingStats:
 
     # Populate player's batting stats upon construction
     def __init__(self, game_id, player_id, stat_features, intervals=(40, 81, 162)):
+        
+        # Player associated with these stats
+        self.gid = game_id
+        self.pid = player_id
+        
+        # Initialize in-game player counting stats
+        self.in_game_stats = {stat_name: 0 for stat_name in BattingStats.counting_stats}
 
         # Initialize player stats over given intervals
         self.intervals = intervals
-        self.stats = {i: {s: None for s in BattingStats.stats} for i in self.intervals}
+        self.historical_stats = None 
 
         # Features from this player's batting we want in our dataset
         for stat in stat_features:
@@ -110,19 +117,22 @@ class BattingStats:
         self.stat_features = stat_features
         self.features = None
 
-        # Read stats from retrosplits
-        stats_df = pd.read_csv(BattingStats.path+f'/{player_id}.csv')
+    
+    def read_historical_stats(self):
+        # Initialize 2D dictionary: game iterval -> stat category -> stat value
+        self.stats = {i: {s: None for s in BattingStats.stats} for i in self.intervals}
+        # Read stats from retrosplits for the given game
+        stats_df = pd.read_csv(BattingStats.path+f'/{self.pid}.csv')
         stats_df['date'] = pd.to_datetime(stats_df['date'])
         constants_df = pd.read_csv('./data/wOBA-weights.csv')
-        if (stats_df['game.key'] == game_id).any():
-            present = stats_df.index[stats_df['game.key'] == game_id][0]
+        if (stats_df['game.key'] == self.gid).any():
+            present = stats_df.index[stats_df['game.key'] == self.gid][0]
         else:
-            print(f'Error while processing {game_id}.')
-            print(f'Couldnt find {game_id} in {player_id} stats')
+            print(f'Error while processing {self.gid}.')
+            print(f'Couldnt find {self.gid} in {self.pid} stats')
             assert(False)
-
         # Populate from retrosplits into the batter stats object
-        for past in intervals:
+        for past in self.intervals:
             # Get games in the given interval
             df = stats_df.iloc[max(present-past, 0):present]
             # Get counting stats from retrosplits
@@ -136,6 +146,8 @@ class BattingStats:
                 self.stats[past][ws] = BattingStats.weighted_stats[ws](df, constants_df)
 
     def featurize(self):
+        if self.historical_stats is None:
+            self.read_historical_stats()
         if self.features is None:
             feat_dict = {}
             for i in self.intervals:
@@ -143,3 +155,13 @@ class BattingStats:
                     feat_dict[f'G{i}_{stat}'] = self.stats[i][stat]
             self.features = pd.Series(feat_dict, dtype=np.float64)
         return self.features
+
+    # Increments count for the given list of stats    
+    def increment_stats(self, stats):
+        for name in stats:
+            self.in_game_stats[name] += 1
+    
+    # Get the player's stats for a given game
+    def get_game_stats(self, game_id, stat_path):
+        stats_df = pd.read_csv(stat_path+f'/{self.pid}.csv')
+        return stats_df[stats_df['game.key'] == game_id].iloc[0]

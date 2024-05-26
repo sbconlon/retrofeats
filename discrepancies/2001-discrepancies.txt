@@ -1,0 +1,195 @@
+PROCESSING 2001 Anaheim Angels
+PROCESSING 2001 Baltimore Orioles
+
+Orioles
+
+Batting
+                G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Jerry Hairston  1    5    5    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Brian Roberts   1    4    4    1    1    2    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+David Segui     1    4    3    0    1    1    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Jeff Conine     1    4    3    0    0    0    0    0    0    0    1    0    0    0    0    0    0    1    0    0    
+Tony Batista    1    4    4    1    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Melvin Mora     1    4    3    1    0    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    
+Cal Ripken      1    4    4    0    3    3    0    0    0    0    2    0    0    0    0    0    0    0    0    0    
+Mike Kinkade    1    3    3    0    0    0    0    0    0    0    0    0    0    1    1    0    0    0    0    0    
+Fernando Lunar  1    3    3    0    1    1    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Josh Towers     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+B.J. Ryan       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Chad Paronto    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Chris Richard   1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jay Gibbons     1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Josh Towers     1    1    21   29   26   3    2    8    13   2    0    1    0    1    0    2    1    0    1    1    0    0    0    0    7    9    76   49   
+B.J. Ryan       1    0    2    4    4    1    1    2    6    1    0    1    0    0    0    1    0    0    0    0    0    0    0    0    1    0    13   12   
+Chad Paronto    1    0    4    7    7    2    1    2    3    1    0    0    0    0    0    2    0    0    0    0    0    0    1    0    1    1    30   21   
+
+
+
+Orioles - Player stat verification
+STAT ERROR: Player: Josh Towers     Stat: GO    Expected: 8    Got: 7
+1 stat error(s).
+
+Game ID: BAL200107050
+
+PROCESSING 2001 Boston Red Sox
+
+Red Sox
+
+Batting
+                  G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Chris Stynes      1    5    4    3    3    7    1    0    1    0    2    1    0    0    0    0    0    0    0    0    
+Jose Offerman     1    5    4    2    1    4    0    0    1    0    2    1    0    0    0    0    0    0    0    0    
+Carl Everett      1    5    5    0    1    1    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Manny Ramirez     1    5    3    2    1    4    0    0    1    0    2    2    1    2    0    0    0    0    0    0    
+Troy O'Leary      1    5    5    2    3    6    1    1    0    0    2    0    0    0    0    0    0    0    0    0    
+Dante Bichette    1    4    4    0    1    2    1    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Jason Varitek     1    5    5    1    3    3    0    0    0    0    1    0    0    0    0    0    0    0    0    0    
+Shea Hillenbrand  1    5    5    2    1    4    0    0    1    0    2    0    0    1    0    0    0    0    0    0    
+Mike Lansing      1    4    4    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Hideo Nomo        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Tim Wakefield     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Darren Lewis      1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Derek Lowe        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                  G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Hideo Nomo        1    1    15   25   21   3    3    7    12   2    0    1    0    4    0    6    1    0    0    0    0    0    0    0    5    3    93   58   
+Tim Wakefield     1    0    6    7    6    0    0    0    0    0    0    0    0    1    0    1    0    0    0    0    0    0    0    0    2    3    15   9    
+Derek Lowe        1    0    6    8    8    1    0    1    1    0    0    0    0    0    0    1    0    0    0    0    0    0    0    0    3    2    25   16   
+
+
+
+Red Sox - Player stat verification
+STAT ERROR: Player: Derek Lowe        Stat: GO    Expected: 4    Got: 3
+1 stat error(s).
+
+Game ID: BOS200105080
+
+PROCESSING 2001 Chicago White Sox
+PROCESSING 2001 Cleveland Indians
+PROCESSING 2001 Detroit Tigers
+PROCESSING 2001 Kansas City Royals
+
+Royals
+
+Batting
+                 G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Carlos Febles    1    4    4    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Angel M. Berroa  1    5    5    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Carlos Beltran   1    5    5    1    2    2    0    0    0    0    0    0    0    1    1    0    0    0    1    0    
+Mike Sweeney     1    4    3    0    2    2    0    0    0    0    1    1    0    0    0    0    0    0    0    0    
+Joe Randa        1    4    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Mark Quinn       1    4    3    0    0    0    0    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Brandon Berger   1    4    3    1    1    4    0    0    1    0    1    1    0    0    0    0    0    0    0    0    
+Ken Harvey       1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    1    
+Gregg Zaun       1    4    2    0    1    1    0    0    0    0    0    2    0    0    0    0    0    0    0    0    
+Jeff Suppan      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+David McCarty    1    3    3    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jeff Austin      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Brad Voyles      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Luis Alicea      1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Scott Mullen     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+A.J. Hinch       1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                 G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Jeff Suppan      1    1    20   31   24   4    4    9    13   1    0    1    0    4    0    4    2    0    1    2    0    0    0    0    8    4    109  65   
+Jeff Austin      1    0    1    4    3    3    3    2    3    1    0    0    0    1    0    1    0    0    0    0    0    0    2    0    0    0    15   7    
+Brad Voyles      1    0    3    4    4    1    1    2    5    0    0    1    0    0    0    0    1    0    0    0    0    0    1    1    1    1    11   8    
+Scott Mullen     1    0    3    7    5    2    2    3    3    0    0    0    0    1    0    0    0    0    0    1    0    0    0    0    0    3    18   10   
+
+
+
+Royals - Player stat verification
+STAT ERROR: Player: Jeff Suppan      Stat: AO    Expected: 5    Got: 4
+1 stat error(s).
+
+Game ID: KCA200109290
+
+PROCESSING 2001 Minnesota Twins
+
+Royals
+
+Batting
+                G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Luis Alicea     1    5    5    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Neifi Perez     1    6    6    2    2    2    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Carlos Beltran  1    6    6    1    2    3    1    0    0    0    1    0    0    1    0    0    0    0    0    0    
+Mike Sweeney    1    5    5    2    4    10   0    0    2    0    5    0    0    0    1    0    0    0    0    0    
+Raul Ibanez     1    5    4    2    1    2    1    0    0    0    0    1    0    1    0    0    0    0    0    0    
+Mark Quinn      1    5    5    1    4    6    2    0    0    0    2    0    0    0    0    0    0    0    0    0    
+Dee Brown       1    5    4    1    2    2    0    0    0    0    0    0    0    1    0    0    1    0    0    0    
+Donnie Sadler   1    5    4    0    1    1    0    0    0    0    0    1    0    0    0    0    0    0    0    0    
+Brent Mayne     1    5    5    0    2    2    0    0    0    0    2    0    0    1    0    0    0    0    0    0    
+Paul Byrd       1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Cory Bailey     1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Carlos Febles   1    1    1    1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Jason Grimsley  1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Luis Ordaz      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Doug Henry      1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+
+Pitching
+                G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Paul Byrd       1    1    18   26   22   2    1    7    8    1    0    0    0    2    0    1    1    0    0    1    0    0    0    0    5    10   70   45   
+Cory Bailey     1    0    3    4    4    0    0    0    0    0    0    0    0    0    0    3    0    0    0    0    0    0    2    1    0    0    18   11   
+Jason Grimsley  1    0    3    6    6    2    1    2    5    0    0    1    0    0    0    1    0    0    0    0    1    0    0    0    1    2    15   12   
+Doug Henry      1    0    3    5    5    1    1    2    3    1    0    0    0    0    0    1    0    0    0    0    0    0    0    0    2    0    19   11   
+
+
+
+Royals - Player stat verification
+STAT ERROR: Player: Cory Bailey     Stat: GO    Expected: 1    Got: 0
+1 stat error(s).
+
+Game ID: MIN200108050
+
+PROCESSING 2001 New York Yankees
+PROCESSING 2001 Oakland Athletics
+PROCESSING 2001 Seattle Mariners
+PROCESSING 2001 Tampa Bay Devil Rays
+PROCESSING 2001 Texas Rangers
+PROCESSING 2001 Toronto Blue Jays
+PROCESSING 2001 Arizona Diamondbacks
+PROCESSING 2001 Atlanta Braves
+PROCESSING 2001 Chicago Cubs
+
+Cubs
+
+Batting
+                  G    PA   AB   R    H    TB   2B   3B   HR   HR4  RBI  BB   IBB  SO   GDP  HP   SH   SF   SB   CS   
+Eric Young        1    4    3    0    2    3    1    0    0    0    0    0    0    1    0    0    1    0    0    0    
+Ricky Gutierrez   1    4    4    1    2    2    0    0    0    0    0    0    0    0    1    0    0    0    0    1    
+Sammy Sosa        1    4    4    1    2    6    1    0    1    0    2    0    0    1    0    0    0    0    0    0    
+Ron Coomer        1    4    4    0    1    1    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Rondell White     1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Matt Stairs       1    4    4    0    0    0    0    0    0    0    0    0    0    1    1    0    0    0    0    0    
+Gary Matthews     1    4    4    0    0    0    0    0    0    0    0    0    0    2    0    0    0    0    0    0    
+Robert Machado    1    3    3    0    1    2    1    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Kerry Wood        1    2    2    0    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Delino DeShields  1    2    2    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+Roosevelt Brown   1    1    1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Will Ohman        1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Todd Van Poppel   1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    
+Corey Patterson   1    1    1    0    0    0    0    0    0    0    0    0    0    1    0    0    0    0    0    0    
+
+Pitching
+                  G    GS   OUT  TBF  AB   R    ER   H    TB   2B   3B   HR   HR4  BB   IBB  SO   GDP  HP   SH   SF   WP   BK   IR   IRS  GO   AO   PTCH STRK 
+Kerry Wood        1    1    18   28   18   3    3    2    2    0    0    0    0    7    1    8    1    2    0    1    1    0    0    0    4    5    106  60   
+Will Ohman        1    0    1    4    2    3    3    1    4    0    0    1    0    2    0    0    0    0    0    0    1    0    0    0    0    1    14   5    
+Todd Van Poppel   1    0    8    12   11   1    1    3    7    1    0    1    0    1    0    1    0    0    0    0    0    0    2    2    4    3    42   26   
+
+
+
+Cubs - Player stat verification
+STAT ERROR: Player: Will Ohman        Stat: AO    Expected: 0    Got: 1
+1 stat error(s).
+
+Game ID: CHN200107130
+
+PROCESSING 2001 Cincinnati Reds
+PROCESSING 2001 Colorado Rockies
+PROCESSING 2001 Florida Marlins
+PROCESSING 2001 Houston Astros

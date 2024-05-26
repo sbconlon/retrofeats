@@ -19,10 +19,11 @@ class GameState:
         self.inning = None
         self.is_bot = None # is bottom of the inning? (bool)
         self.outs = None
-        self.score = [0, 0] #
+        self.score = [0, 0] # [away, home]
         self.runners = [False, False, False]
-        self.batter = ""
-        self.past = None
+        self.batter = ''
+        self.count = [] # [balls, strikes]
+        self.past = None # History of game features
         # General game info
         self.info = {}
         self.const_features = None
@@ -52,7 +53,7 @@ class GameState:
         columns += ['Away', 'Home']
         #
         # Runners
-        vector += [int(r) for r in self.runners]
+        vector += [int(bool(r)) for r in self.runners]
         columns += ['1B', '2B', '3B']
 
         return pd.Series(dict(zip(columns, vector)), dtype=np.float64)
@@ -142,6 +143,25 @@ class GameState:
         self.past['away_final'] = away_final
         self.past['home_final'] = home_final
 
+    def end(self, final, output, save_state=True, save_stats=False, verify_stats_path=False, overwrite=False):
+        #
+        # Verify that the accumulated stats agree with retrosplits data.
+        if verify_stats_path:
+            for team in self.teams:
+                if not team.verify_game_stats(self.id, verify_stats_path):
+                    assert(False)
+        #
+        # Save the game state
+        if save_state:
+            # Add the final score and save the game features to a csv file.
+            self.add_result(final)
+            self.save(output)
+        #
+        # Save the player stats
+        if save_stats:
+            self.teams[0].save_stats(self.id, overwrite=overwrite)
+            self.teams[1].save_stats(self.id, overwrite=overwrite)
+
     def save(self, path):
         if not os.path.exists(path):
             os.makedirs(path)
@@ -162,11 +182,13 @@ class GameState:
         state_str += f"Outs: {self.outs}\n"
         state_str += f"\n"
         state_str += f"Pitcher: " + pitcher.name + "\n"
-        state_str += f"G {pitcher.pitching.stats[p_int]['G']} IP {round(pitcher.pitching.stats[p_int]['OUT']/3, 1)} FIP {round(pitcher.pitching.stats[p_int]['FIP'], 2)}\n"
-        state_str += f"Pitch Count: {pitcher.pcount}\n"
+        if pitcher.pitching.historical_stats:
+            state_str += f"G {pitcher.pitching.historical_stats[p_int]['G']} IP {round(pitcher.pitching.historical_stats[p_int]['OUT']/3, 1)} FIP {round(pitcher.pitching.historical_stats[p_int]['FIP'], 2)}\n"
+            state_str += f"Pitch Count: {pitcher.pitching.in_game_stats['PITCH']}\n"
         state_str += f"\n"
         state_str += f"Batter: " + batter.name + "\n"
-        state_str += f"G {batter.batting.stats[b_int]['G']} PA {batter.batting.stats[b_int]['PA']} wOBA {round(batter.batting.stats[b_int]['wOBA'],3)} wRAA {round(batter.batting.stats[b_int]['wRAA'],1)}\n"
+        if batter.batting.historical_stats:
+            state_str += f"G {batter.batting.historical_stats[b_int]['G']} PA {batter.batting.historical_stats[b_int]['PA']} wOBA {round(batter.batting.historical_stats[b_int]['wOBA'],3)} wRAA {round(batter.batting.historical_stats[b_int]['wRAA'],1)}\n"
         state_str += f"\n"
         state_str += f"  {'o' if self.runners[1] else '.'}\n"
         state_str += f"{'o' if self.runners[2] else '.'} - {'o' if self.runners[0] else '.'}\n"

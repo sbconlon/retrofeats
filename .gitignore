@@ -4,3 +4,10 @@ __pycache__/
 
 # Personal
 my_config.yaml
+my_test_config.yaml
+
+# Data
+./data/players-daybyday
+
+# VS Code workspace
+*.code-workspace
