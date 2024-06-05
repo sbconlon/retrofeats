@@ -174,6 +174,6 @@ class Team:
         return (error_cnt == 0) # Return true if there are no errors.
     
     # Save the game stats for each player on the team.
-    def save_stats(self, game_id, overwrite=False):
+    def save_stats(self, game_id, game_date, overwrite=False):
         for plyr in self.roster.values():
-            plyr.save_stats(game_id, overwrite=overwrite)
+            plyr.save_stats(game_id, game_date, overwrite=overwrite)

@@ -121,7 +121,7 @@ class BattingStats:
     def read_historical_stats(self):
         # Initialize 2D dictionary: game iterval -> stat category -> stat value
         self.stats = {i: {s: None for s in BattingStats.stats} for i in self.intervals}
-        # Read stats from retrosplits for the given game
+        # Read stats for the given game
         stats_df = pd.read_csv(BattingStats.path+f'/{self.pid}.csv')
         stats_df['date'] = pd.to_datetime(stats_df['date'])
         constants_df = pd.read_csv('./data/wOBA-weights.csv')

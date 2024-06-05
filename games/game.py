@@ -55,8 +55,17 @@ class GameState:
         # Runners
         vector += [int(bool(r)) for r in self.runners]
         columns += ['1B', '2B', '3B']
+        #
+        # Batter
+        vector += [self.batter if self.batter else '']
+        columns += ['batter']
+        #
+        # Pitcher
+        pitcher = self.teams[self.is_bot].pitcher
+        vector += [pitcher if pitcher else '']
+        columns += ['pitcher']
 
-        return pd.Series(dict(zip(columns, vector)), dtype=np.float64)
+        return pd.Series(dict(zip(columns, vector)))
 
     def get_parkfactor(self):
         assert(self.teams[1] and self.date)
@@ -143,7 +152,10 @@ class GameState:
         self.past['away_final'] = away_final
         self.past['home_final'] = home_final
 
-    def end(self, final, output, save_state=True, save_stats=False, verify_stats_path=False, overwrite=False):
+    def end(self, final, output, save_state=True, 
+                                 save_stats=False, 
+                                 verify_stats_path=False, 
+                                 overwrite=False):
         #
         # Verify that the accumulated stats agree with retrosplits data.
         if verify_stats_path:
@@ -159,8 +171,8 @@ class GameState:
         #
         # Save the player stats
         if save_stats:
-            self.teams[0].save_stats(self.id, overwrite=overwrite)
-            self.teams[1].save_stats(self.id, overwrite=overwrite)
+            self.teams[0].save_stats(self.id, self.date, overwrite=overwrite)
+            self.teams[1].save_stats(self.id, self.date, overwrite=overwrite)
 
     def save(self, path):
         if not os.path.exists(path):

@@ -93,11 +93,11 @@ class Player:
                 self.fielding_features = self.fielding.featurize()
             return self.fielding_features
     
-    def save_stats(self, game_id, overwrite=False):
+    def save_stats(self, game_id, game_date, overwrite=False):
         player_file = f'./data/players-daybyday/{self.id}.csv'
         cols = ['B_'+bstat for bstat in BattingStats.counting_stats]
         cols += ['P_'+pstat for pstat in PitchingStats.counting_stats]
-        cols += ['game.key']
+        cols += ['game.key', 'date']
         # Open the player's day by day stat df if it exists, else create it
         df = (
               pd.read_csv(player_file) 
@@ -114,6 +114,7 @@ class Player:
         # Else, add the row for the game in the dataframe and write the csv out to disk.
         row = pd.Series(0, index=cols)
         row['game.key'] = game_id
+        row['date'] = game_date
         if self.batting:
             for stat in BattingStats.counting_stats:
                 row['B_'+stat] = self.batting.in_game_stats[stat]
