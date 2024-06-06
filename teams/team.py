@@ -37,7 +37,7 @@ class Team:
         for i, p in enumerate(range(self.bpos, self.bpos+9)):
             player_feats = self.roster[self.lineup[p%9]].featurize('batting')
             player_feats = player_feats.rename(lambda s: f'B{i}_'+s)
-            team_feats = team_feats.append(player_feats)
+            team_feats = pd.concat([team_feats, player_feats])
         return team_feats
 
     def featurize_pitching(self):
@@ -50,7 +50,7 @@ class Team:
         batting_feats = self.featurize_batting()
         pitching_feats = self.featurize_pitching()
         fielding_feats = self.featurize_fielding()
-        return batting_feats.append(pitching_feats).append(fielding_feats)
+        return pd.concat([batting_feats, pitching_feats, fielding_feats])
     
     # NOTE - Should these be moved into a stats parent object?
     stat_dict = {'batting':  [BattingStats.counting_stats],

@@ -85,14 +85,14 @@ class Player:
             if self.pitching_features is None:
                 self.pitching_features = self.pitching.featurize()
             ingame_feats = self.get_ingame_features('pitching')
-            return self.pitching_features.append(ingame_feats)
+            return pd.concat([self.pitching_features, ingame_feats])
         # Fielding features
         if facet == 'fielding':
             assert(self.fielding)
             if self.fielding_features is None:
                 self.fielding_features = self.fielding.featurize()
             return self.fielding_features
-    
+
     def save_stats(self, game_id, game_date, overwrite=False):
         player_file = f'./data/players-daybyday/{self.id}.csv'
         cols = ['B_'+bstat for bstat in BattingStats.counting_stats]
@@ -100,7 +100,7 @@ class Player:
         cols += ['game.key', 'date']
         # Open the player's day by day stat df if it exists, else create it
         df = (
-              pd.read_csv(player_file) 
+              pd.read_csv(player_file)
               if os.path.isfile(player_file)
               else pd.DataFrame(columns=cols)
         )
@@ -112,7 +112,7 @@ class Player:
             else:
                 return
         # Else, add the row for the game in the dataframe and write the csv out to disk.
-        row = pd.Series(0, index=cols)
+        row = dict.fromkeys(cols)
         row['game.key'] = game_id
         row['date'] = game_date
         if self.batting:
@@ -121,6 +121,6 @@ class Player:
         if self.pitching:
             for stat in PitchingStats.counting_stats:
                 row['P_'+stat] = self.pitching.in_game_stats[stat]
-        df.loc[len(df.index)] = row
+        df.loc[len(df.index)] = pd.Series(row)
         df.sort_values(by='game.key', key=lambda col: [int(x[3:]) for x in col], inplace=True, ignore_index=True)
         df.to_csv(player_file, index=False)

@@ -542,15 +542,16 @@ class Processor:
                 # The 'owner_pitcher' is the pitcher who owns this runner
                 #    i.e. the pitcher who allowed this runner on base.
                 runner = self.game.teams[self.game.is_bot].roster[runner_tuple[0]]
-                owner_pitcher = self.game.teams[not self.game.is_bot].roster[runner_tuple[1]]
+                owner_pitcher = self.game.teams[not self.game.is_bot].roster[runner_tuple[1]] if runner_tuple[1] else None
                 runner.batting.increment_stats(['R'])
-                owner_pitcher.pitching.increment_stats(['R'])
+                if owner_pitcher:
+                    owner_pitcher.pitching.increment_stats(['R'])
                 # Check for inherited run scored.
-                if owner_pitcher.id != pitcher.id:
+                if owner_pitcher and owner_pitcher.id != pitcher.id:
                     pitcher.pitching.increment_stats(['IRS'])
-                # 
+                #
                 # Determine whether or not to award an RBI.
-                # 
+                #
                 # Runs are assumed to be RBIs for the batter unless explicitly
                 # stated with a no RBI indicator, or an error occured on the
                 # runner's advancement.
@@ -558,7 +559,7 @@ class Processor:
                 # OR
                 #
                 # If an RBI is not possible for the play type.
-                # i.e. if a runner steals home, then the batter is not 
+                # i.e. if a runner steals home, then the batter is not
                 # awarded an RBI for that run
                 #
                 # OR
@@ -572,21 +573,21 @@ class Processor:
                 # Note - indicators can come with modifiers so we take the first
                 #        token in front of '/' to sort out any mods.
                 if (
-                    not (   'NORBI' in indicators or 
+                    not (   'NORBI' in indicators or
                             'NR'    in indicators or
                             'WP'    in indicators or
                             'PB'    in indicators or
-                            any([Processor.error_ptrn.match(ind.split('/')[0]) for 
+                            any([Processor.error_ptrn.match(ind.split('/')[0]) for
                                     ind in indicators]) or
-                            (is_error and strt != 3)) 
-                    
+                            (is_error and strt != 3))
+
                     and 
                         eligble_for_rbi
                     ):
                     batter.batting.increment_stats(['RBI'])
                 #
                 # Determine whether or not to count an earned run.
-                if not 'UR' in indicators:
+                if owner_pitcher and not 'UR' in indicators:
                     owner_pitcher.pitching.increment_stats(['ER'])
                 # Update the score for the next game state
                 self.next_score[self.game.is_bot] += 1 # Scored
@@ -1202,7 +1203,7 @@ class Processor:
                               'Walk w/ Error',
                               'Walk w/ Defense Indifference',
                               'Walk w/ Other Advancement'])
-    
+
     is_end_of_atbat = lambda play_str: play_str in Processor.end_of_atbat_plays
 
     def process_play(self, row):
@@ -1281,7 +1282,7 @@ class Processor:
 
         # Get the pitcher
         pitcher = self.game.teams[not self.game.is_bot].roster[self.game.teams[not self.game.is_bot].pitcher]
-        
+
         # Whether or not the batter is eligble for an RBI on this play.
         # Instances where they're not eligble are when they do not put the ball
         # in play, such as stolen base plays.
@@ -1355,7 +1356,7 @@ class Processor:
         elif Processor.intrfrnc_ptrn.match(play):
             play_str = 'Catcher Interference'
             self.process_intrfrnc(play, adv, batter, pitcher)
-            # RBIs are only credited for catcher's interference 
+            # RBIs are only credited for catcher's interference
             # if the bases are loaded.
             if not all(self.game.runners):
                 eligble_for_rbi = False
@@ -1558,7 +1559,7 @@ class Processor:
         # Advance runners
         # ---------------------------------------------------------------------------
         #
-        self.advance_runners(adv, batter, pitcher, eligble_for_rbi, 
+        self.advance_runners(adv, batter, pitcher, eligble_for_rbi,
                                                    is_error,
                                                    is_ptchr_owner_swap)
 
@@ -1577,7 +1578,7 @@ class Processor:
         #
         # Ex: when a pickoff play happens mid at-bat
         #
-        # As such, we must wait until the end of the at-bat to count the pitches 
+        # As such, we must wait until the end of the at-bat to count the pitches
         # for the at-bat.
         #
         # NOTE - What about mid-at-bat pinch hitters?
@@ -1587,10 +1588,10 @@ class Processor:
             pitcher.pitching.add_to_stat('STRIKE', self.get_strikes_thrown(pitches))
             self.mid_atbat_pitcher_owner = '' # Clear mid at-bat pitcher change field
             self.is_pitcher_sub_count = False
-        
+
         # Increment outs stats
         pitcher.pitching.add_to_stat('OUT',   self.next_outs - self.game.outs)
-        
+
         #
         # Reset after new inning
         assert(self.next_outs <= 3)
@@ -1606,7 +1607,7 @@ class Processor:
         assert(row[0] == 'radj')
         base = int(row[2])-1
         assert(self.next_runners[base] == False)
-        self.next_runners[base] = True
+        self.next_runners[base] = [row[1], None]
         self.logger.log('---------------------------------------------------')
         self.logger.log(f'Runner Adjustment - Adding Runner to Base {base}')
 
@@ -1699,8 +1700,8 @@ class Processor:
                 self.process_lineup_adj(row)
 
         # Save last game in the team
-        self.game.end(self.next_score, 
-                      self.config.output_path+f'/{self.game.date.year}eve', 
+        self.game.end(self.next_score,
+                      self.config.output_path+f'/{self.game.date.year}eve',
                       save_state=self.save_state,
                       save_stats=self.save_stats,
                       verify_stats_path=self.verify_path,

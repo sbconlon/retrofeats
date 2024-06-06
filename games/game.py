@@ -134,13 +134,13 @@ class GameState:
         field_team_feats = self.teams[not self.is_bot].featurize()
         field_team_feats = field_team_feats.rename(lambda s: 'F_'+s)
         # Append the feature types into a single feature vector
-        return state_feats.append(const_feats).append(atbat_team_feats).append(field_team_feats)
+        return pd.concat([state_feats, const_feats, atbat_team_feats, field_team_feats])
 
     def checkpoint(self):
         feats = self.featurize()
         if self.past is None:
             self.past = pd.DataFrame([], columns=feats.index)
-        self.past = self.past.append(feats, ignore_index=True)
+        self.past = pd.concat([self.past, feats], ignore_index=True)
 
     def add_result(self, final):
         # Add result to the past dataframe

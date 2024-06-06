@@ -9,8 +9,8 @@ import sys
 sys.path.insert(0, '../../')
 
 woba_cols = ['AB', 'BB', 'HP', 'H', '2B', '3B', 'HR', 'HR4', 'IBB', 'SF', 'PA']
-wTB = lambda w, x: float(w['wBB']*x['BB']+w['wHBP']*x['HP']+w['w1B']*x['1B']+w['w2B']*x['2B']+w['w3B']*x['3B']+w['wHR']*(x['HR']+x['HR4']))
-wOBA = lambda w, x: float(x['wTB']/(x['AB']+x['BB']-x['IBB']+x['SF']+x['HP']))
+wTB = lambda w, x: (w['wBB']*x['BB']+w['wHBP']*x['HP']+w['w1B']*x['1B']+w['w2B']*x['2B']+w['w3B']*x['3B']+w['wHR']*(x['HR']+x['HR4'])).iloc[0]
+wOBA = lambda w, x: (x['wTB']/(x['AB']+x['BB']-x['IBB']+x['SF']+x['HP']))
 
 # Calculate wOBA accounting for weighting differences between years
 def calcwOBA(stats, consts):
@@ -27,7 +27,7 @@ def calcwOBA(stats, consts):
     return wOBA(w, sts) if (sts['AB']+sts['BB']-sts['IBB']+sts['SF']+sts['HP']) != 0 else 0
 
 
-wRAA = lambda w, x: float(((x['wOBA']-w['wOBA'])/w['wOBAScale'])*x['PA'])
+wRAA = lambda w, x: (((x['wOBA']-w['wOBA'])/w['wOBAScale'])*x['PA']).iloc[0]
 
 def calcwRAA(stats, consts):
     # Accumulate total wRAA over the years
@@ -109,7 +109,7 @@ class BattingStats:
 
         # Initialize player stats over given intervals
         self.intervals = intervals
-        self.historical_stats = None 
+        self.historical_stats = None
 
         # Features from this player's batting we want in our dataset
         for stat in stat_features:
@@ -117,7 +117,7 @@ class BattingStats:
         self.stat_features = stat_features
         self.features = None
 
-    
+
     def read_historical_stats(self):
         # Initialize 2D dictionary: game iterval -> stat category -> stat value
         self.stats = {i: {s: None for s in BattingStats.stats} for i in self.intervals}
@@ -156,11 +156,11 @@ class BattingStats:
             self.features = pd.Series(feat_dict, dtype=np.float64)
         return self.features
 
-    # Increments count for the given list of stats    
+    # Increments count for the given list of stats
     def increment_stats(self, stats):
         for name in stats:
             self.in_game_stats[name] += 1
-    
+
     # Get the player's stats for a given game
     def get_game_stats(self, game_id, stat_path):
         stats_df = pd.read_csv(stat_path+f'/{self.pid}.csv')

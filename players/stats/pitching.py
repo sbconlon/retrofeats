@@ -19,7 +19,7 @@ sys.path.insert(0, '../../')
 def calcFIP(stats, consts):
     wc_sum = 0 # weighted FIP constant sum (numerator)
     for year, season_stats in stats.groupby(stats.date.dt.year):
-        c = float(consts.loc[consts['Season'] == year]['cFIP'])
+        c = consts.loc[consts['Season'] == year]['cFIP'].iloc[0]
         wc_sum += c*season_stats['P_TBF'].sum()
     tbf = stats['P_TBF'].sum()
     wc = wc_sum/tbf if tbf != 0 else 0 # weighted FIP constant
@@ -146,12 +146,12 @@ class PitchingStats:
                     feat_dict[f'P_G{i}_{stat}'] = self.stats[i][stat]
             self.features = pd.Series(feat_dict, dtype=np.float64)
         return self.features
-    
-    # Increments count for the given list of stats    
+
+    # Increments count for the given list of stats
     def increment_stats(self, stats):
         for name in stats:
             self.in_game_stats[name] += 1
-    
+
     # Adds the value to the given stat
     def add_to_stat(self, stat, value):
         self.in_game_stats[stat] += value
