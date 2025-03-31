@@ -33,7 +33,7 @@ with open(args.config, 'r') as yamlfile:
 if not args.year:
     raise Exception('Year arguement not found.')
 # years must be between 2000-2023
-year_ptrn = re.compile(r'(20[0-1]\d|202[0-3])')
+year_ptrn = re.compile(r'(20[0-1]\d|202[0-4])')
 input_years = re.findall(year_ptrn, args.year)
 if len(input_years) == 2:
     years = range(int(input_years[0]), int(input_years[1])+1)
@@ -71,14 +71,16 @@ for year in years:
         njobs = int(args.jobs)
         nteams = len(teams_df)
         # Initialize processors for each team
-        procs = [Processor(config)] * nteams
+        #procs = [Processor(config)] * nteams
         # Define wrapper function to log the parallel execution
-        def proc_wrapper(i):
-            team = teams_df.iloc[i]
+        def proc_wrapper(config, team_idx):
+            team = teams_df.iloc[team_idx]
             print(f"PROCESSING {year} {team['city']} {team['name']}")
-            procs[i].process_team(year, team['id'], team['league'])
+            proc = Processor(config)
+            #procs[i].process_team(year, team['id'], team['league'])
+            proc.process_team(year, team['id'], team['league'])
         # Launch parallel jobs
-        Parallel(n_jobs=njobs)(delayed(proc_wrapper)(idx) for idx in range(nteams))
+        Parallel(n_jobs=njobs)(delayed(proc_wrapper)(config, idx) for idx in range(nteams))
 
     print()
 print(f'--> Execution time: {time.time() - start}')

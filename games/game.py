@@ -141,7 +141,7 @@ class GameState:
         if self.past is None:
             self.past = pd.DataFrame([], columns=feats.index)
         # Add the features (pd.Series) as a row to the end of past (pd.DataFrame)
-        self.past = self.past.append(feats, ignore_index=True)
+        self.past = pd.concat([self.past, pd.DataFrame(feats)], ignore_index=True)
 
     def add_result(self, final):
         # Add result to the past dataframe

@@ -181,6 +181,7 @@ class Processor:
                           verify_stats_path=self.verify_path)
         # Start new game
         self.game = GameState(row[1][:-1]) # game id
+        print(self.game.id)
         year = row[1][3:7] # pull year from game id
         self.logger = Logger(self.config.log_path+f'/{year}eve/{row[1][:-1]}.log')
         self.logger.log('---------------------------------------------------')
@@ -1641,6 +1642,7 @@ class Processor:
         lines = file.readlines()
         skip = False
         for line in lines:
+            print(line)
             # Parse string row
             row = line.split(',')
 

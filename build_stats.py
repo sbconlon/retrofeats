@@ -37,7 +37,7 @@ with open(args.config, 'r') as yamlfile:
 if not args.year:
     raise Exception('Year arguement not found.')
 # years must be between 2000-2023
-year_ptrn = re.compile(r'(20[0-1]\d|202[0-3])')
+year_ptrn = re.compile(r'(20[0-1]\d|202[0-4])')
 input_years = re.findall(year_ptrn, args.year)
 if len(input_years) == 2:
     years = range(int(input_years[0]), int(input_years[1])+1)
