@@ -1635,14 +1635,16 @@ class Processor:
     #    None
     #
     def process_team(self, year, team_id, team_lg, game_id=''):
+
         # Open event file for the given year and team
         filepath = self.config.input_path+f'/{year}eve/'
         filename = f'{year}{team_id}.EV{team_lg}'
         file = open(filepath+filename, 'r')
         lines = file.readlines()
         skip = False
+
         for line in lines:
-            print(line)
+
             # Parse string row
             row = line.split(',')
 

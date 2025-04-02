@@ -139,24 +139,27 @@ class GameState:
     def checkpoint(self):
         feats = self.featurize()
         if self.past is None:
-            self.past = pd.DataFrame([], columns=feats.index)
-        # Add the features (pd.Series) as a row to the end of past (pd.DataFrame)
-        self.past = pd.concat([self.past, pd.DataFrame(feats)], ignore_index=True)
+            self.past = []
+        self.past.append(feats)
 
     def add_result(self, final):
         # Add result to the past dataframe
         # True if home team won
         # final (score) = [away, home]
-        rows = self.past.shape[0]
+        rows = self.df.shape[0]
         away_final = pd.Series(np.ones(rows), dtype=np.float64) * final[0]
         home_final = pd.Series(np.ones(rows), dtype=np.float64) * final[1]
-        self.past['away_final'] = away_final
-        self.past['home_final'] = home_final
+        self.df['away_final'] = away_final
+        self.df['home_final'] = home_final
 
     def end(self, final, output, save_state=True, 
                                  save_stats=False, 
                                  verify_stats_path=False, 
                                  overwrite=False):
+        #
+        # Build dataframe from list of series
+        self.df = pd.DataFrame(self.past)
+
         #
         # Verify that the accumulated stats agree with retrosplits data.
         if verify_stats_path:
@@ -178,7 +181,7 @@ class GameState:
     def save(self, path):
         if not os.path.exists(path):
             os.makedirs(path)
-        self.past.to_csv(path+f'/{self.id}.csv', index=False)
+        self.df.to_csv(path+f'/{self.id}.csv', index=False)
 
     def __str__(self):
         # Get batter and pitcher
