@@ -61,7 +61,7 @@ class GameState:
         columns += ['batter']
         #
         # Pitcher
-        pitcher = self.teams[self.is_bot].pitcher
+        pitcher = self.teams[(self.is_bot+1)%2].pitcher
         vector += [pitcher if pitcher else '']
         columns += ['pitcher']
 
